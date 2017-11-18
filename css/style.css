@@ -231,11 +231,10 @@ ul > li::before {
 /*PAGE LOADER STUFF*/
 .main-content
 {
-	
+	display:none;
 }
 
 .spinner {
-	display:none;
 	position:fixed;
 	top:20%;
 	left:50%;
