@@ -1,21 +1,50 @@
-$(window).load(function(){
-  $(".spinner").fadeOut("slow");
-  $(".main-content").fadeIn("slow");
-})
+function showAbout()
+{
+  $("#list-of-projects").fadeOut(500);
+  $("#about").fadeIn(500);
+  $("#resume").fadeOut(500);
+}
 
-(function($) {
+function showProjects()
+{
+  $("#list-of-projects").fadeIn(500);
+  $("#about").fadeOut(500);
+  $("#resume").fadeOut(500);
+}
+
+function showResume()
+{
+  $("#resume").fadeIn(500);
+  $("#list-of-projects").fadeOut(500);
+  $("#about").fadeOut(500);
+}
+
+
+// $(window).load(function(){
+//   $(".spinner").fadeOut("slow");
+//   $(".main-content").fadeIn("slow");
+// })
+
+
+
   $(document).ready(function(){
     $(window).scroll(function(){
-      if ($(this).scrollTop() > 200) {
-        $('#menu').fadeIn(500);
+      if ($(this).scrollTop() > 400) {
+        $('#process-header').fadeIn(700);
+        $('#back-to-top').fadeIn(700);
       } else {
-        $('#menu').fadeOut(500);
+        $('#process-header').fadeOut(700);
+        $('#back-to-top').fadeOut(700);
       }
     });
   });
-})(jQuery);
 
 
+  $('#back-to-top').click(function() {
+      $('body,html').animate({
+          scrollTop : 0
+      }, 1000);
+  });
 
 // Select all links with hashes
 $('a[href*="#"]')
@@ -57,7 +86,7 @@ $('a[href*="#"]')
 
 // Cache selectors
 var lastId,
-    topMenu = $("#top-menu"),
+    topMenu = $("#process-header"),
     topMenuHeight = topMenu.outerHeight()+15,
     // All list items
     menuItems = topMenu.find("a"),
