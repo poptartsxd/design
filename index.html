@@ -64,14 +64,14 @@
 
 				<div class="row">
 
-					<div class="col-md-12 lockit-box each-project lockit">
+					<div class="col-md-12 lockit-box each-project">
 
 						<a class="portfolio-link" href="lockit.html">
 
-							<div class="row">
+							<div class="row lockit">
 
 								<div class="col-md-6 text-center lockit-img">
-									<img src="images/front-images/lockit.png" class="center-block img-responsive front-image  lockit-img" id="project-img"/>
+									<img src="images/front-images/lockit.png" class="center-block img-responsive front-image" id="project-img"/>
 
 								</div>
 								<div class="col-md-6">
@@ -106,9 +106,9 @@
 
 						<a class="portfolio-link" href="moviepass.html">
 
-							<div class="row">
+							<div class="row moviepass">
 
-								<div class="col-md-6 text-center">
+								<div class="col-md-6 text-center moviepass-img">
 									<img src="images/front-images/moviepass.png" class="center-block img-responsive front-image" id="project-img"/>
 
 								</div>
@@ -144,9 +144,9 @@
 
 						<a class="portfolio-link" href="navy.html">
 
-							<div class="row">
+							<div class="row navy">
 
-								<div class="col-md-6 text-center">
+								<div class="col-md-6 text-center navy-img">
 									<img src="images/front-images/navy.png" class="center-block img-responsive small-image front-image" id="project-img"/>
 
 								</div>
@@ -225,6 +225,37 @@
 	sr.reveal('p.personal-title', {duration:1500, delay:200, distance:'100px', scale:1, origin:'left'});
 	sr.reveal('.my-links', {duration:1500, delay:200, distance:'100px', scale:1, origin:'left'});
 	sr.reveal('.social-media', {duration:1500, delay:200, distance:'100px', scale:1, origin:'left'});
+
+	$(".lockit").hover(function(){
+		$(".lockit-img").animate({
+			top:"-15px"
+		},300,"swing")
+	}, function(){
+		$(".lockit-img").animate({
+			top:"0px"
+		},300,"swing")
+	})
+
+		$(".moviepass").hover(function(){
+			$(".moviepass-img").animate({
+				top:"-15px"
+			},300,"swing")
+		}, function(){
+			$(".moviepass-img").animate({
+				top:"0px"
+			},300,"swing")
+		})
+
+		$(".navy").hover(function(){
+			$(".navy-img").animate({
+				top:"-15px"
+			},300,"swing")
+		}, function(){
+			$(".navy-img").animate({
+				top:"0px"
+			},300,"swing")
+		})
+
 
 </script>
 
