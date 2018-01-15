@@ -1,3 +1,4 @@
+
 function showAbout()
 {
   $("#list-of-projects").fadeOut(500);
