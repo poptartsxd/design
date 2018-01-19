@@ -522,13 +522,6 @@ img.bkgd-tiles
 	margin-bottom:50px;
 }
 
-.medium-container
-{
-	padding-left:100px;
-	padding-right:100px;
-	margin-top:50px;
-}
-
 .process-style
 {
 	background-color:#EEEEEE;
@@ -681,7 +674,12 @@ img.bkgd-tiles
 
 @media(min-width:992px)
 {
-
+	.medium-container
+	{
+		padding-left:100px;
+		padding-right:100px;
+		margin-top:50px;
+	}
 
 	.front-desc
 	{
