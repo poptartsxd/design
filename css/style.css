@@ -282,7 +282,9 @@ ul > li::before {
 
 .social-media
 {
-	padding:5px;
+	padding: 5px;
+	float:left;
+	margin-bottom:20px;
 }
 
 a.mail
@@ -674,6 +676,13 @@ img.bkgd-tiles
 
 @media(min-width:992px)
 {
+
+	.social-media
+	{
+		padding:5px;
+		float:right;
+	}
+
 	.medium-container
 	{
 		padding-left:100px;
