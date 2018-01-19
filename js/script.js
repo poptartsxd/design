@@ -1,14 +1,14 @@
 
 function showAbout()
 {
+  $("#about").fadeIn(1500);
   $("#list-of-projects").fadeOut(500);
-  $("#about").fadeIn(500);
   $("#resume").fadeOut(500);
 }
 
 function showProjects()
 {
-  $("#list-of-projects").fadeIn(500);
+  $("#list-of-projects").fadeIn(1500);
   $("#about").fadeOut(500);
   $("#resume").fadeOut(500);
 }

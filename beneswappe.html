@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<meta charset="utf-8">
+	<title>BeneSwappe Design</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i|Quicksand:300,400,500,700" rel="stylesheet">
+
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
+  <script src="https://use.fontawesome.com/6eab716f23.js"></script>
+	<link rel="icon" type="image/png" href="images/favicon.png">
+
+	<script src="https://use.typekit.net/uyi1kti.js"></script>
+	<script>try{Typekit.load({ async: true });}catch(e){}</script>
+
+</head>
+
+<body>
+
+  <div class="spinner"></div>
+
+
+<div class="main-content">
+	<a href="javascript:" id="back-to-top"><i class="fa fa-arrow-up" aria-hidden="true"></i></a>
+
+
+  <div class="container">
+		<div class="row contact-info">
+
+			<div class="col-md-8">
+				<a href="index.html" class="go-home">VICTORIA CHAI</a>
+				&nbsp;&middot;&nbsp;
+				<a href="index.html" class="go-home">PROJECTS</a>
+			</div>
+
+			<div class="col-md-4 text-right">
+				<div class="social-media caption">
+					<a class="dribbble" href="https://www.dribbble.com/victoriachai" target="_blank">
+						<img src="images/front-images/dribbble.svg" class="my-icons"/>
+					</a>&nbsp;
+					<a class="linkedin" href="https://www.linkedin.com/in/victoriajoanchai" target="_blank">
+						<img src="images/front-images/linkedin.svg" class="my-icons"/>
+					</a>&nbsp;
+					<a class="mail" href="mailto:victoriachai@gatech.edu">
+						<img src="images/front-images/mail.svg" class="my-icons"/>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+
+  <div id="process-header" class="add-drop-shadow">
+		<li>
+			<a href="#overview">OVERVIEW</a>
+		</li>
+		<li>
+			<a href="#process">PROCESS</a>
+		</li>
+		<li>
+			<a href="#design">DESIGN</a>
+		</li>
+		<li>
+			<a href="#reflection">REFLECTION</a>
+		</li>
+
+	</div>
+
+
+
+  <div class="container-fluid my-container">
+
+		<div class="row">
+
+			<div class="col-md-12 text-center">
+				<p class="page-title">BeneSwappe Design</p>
+				<p class="page-subtitle text-uppercase tagline">Generating value from underutilized items</p>
+				<br>
+			</div>
+
+		</div>
+
+		<div class="row">
+
+			<div class="col-md-12">
+				<p>BeneSwappe is an online clothing swap service that lets groups of friends, coworkers, students, etc. to easily swap clothes that they do not want anymore. More than 15 million tons of textile are wasted each year in the US. While donating old clothing is a good option, very few of the donated clothes actually make it into the hands of someone in need.</p>
+        <p>BeneSwappe is dedicated to generating value from items that would otherwise have been thrown away, while making it easy to swap clothes with your friends.</p>
+			</div>
+
+		</div>
+
+	</div>
+
+
+
+  <div class="container-fluid my-container" id="overview">
+
+		<div class="row">
+
+			<div class="col-md-12">
+
+        <video id="pinwheel" class="center-block pinwheel">
+					<source src="videos/beneswappe/pinwheel.mov"/>
+				</video>
+
+
+				<p class="section-title text-center">Design</p>
+				<p class="section-subtitle text-center">The Solution</p>
+				<p>
+					<b>Problem:</b> How might we generate value from unwanted clothing and items<br>
+					<b>Users:</b> Anyone who is cleaning out their closet<br>
+					<b>Role:</b> Product Designer<br>
+					<b>Details:</b> Personal Project, 1 week<br>
+
+				</p>
+				<p class="caption">Note: all images used are either stock images or images from clothing retailers. I do not own any of these images. They are only used to demonstrate a concept.</p><br><br>
+			</div>
+
+		</div>
+
+	</div>
+
+
+
+</div>
+
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
+  <script>
+
+  var played = false;
+
+  $(window).scroll(function(){
+
+      function elementScrolled(elem)
+      {
+          var docViewTop = $(window).scrollTop();
+          var docViewBottom = docViewTop + $(window).height();
+          var elemTop = $(elem).offset().top;
+          return ((elemTop <= docViewBottom) && (elemTop >= docViewTop));
+      }
+
+
+      if(elementScrolled('#pinwheel')) {
+        var pinwheel = document.getElementById("pinwheel");
+        if(played === false){
+          pinwheel.play();
+          played = true;
+        }
+      }
+  });
+
+  </script>
+</body>
+</html>
