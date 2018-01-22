@@ -467,7 +467,7 @@ img.bkgd-tiles
 
 .add-drop-shadow
 {
-	box-shadow: 4px 4px 24px rgba(0,0,0,0.12);
+	box-shadow: 0px 2px 24px rgba(0,0,0,0.12);
 }
 
 .front-image
