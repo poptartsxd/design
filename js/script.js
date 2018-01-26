@@ -87,7 +87,7 @@ $('a[href*="#"]')
 
 // Cache selectors
 var lastId,
-    topMenu = $(".process-labels"),
+    topMenu = $("#process-header"),
     topMenuHeight = topMenu.outerHeight()+15,
     // All list items
     menuItems = topMenu.find("a"),
