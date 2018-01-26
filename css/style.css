@@ -459,7 +459,7 @@ img.bkgd-tiles
 
 .video-effect
 {
-	width:250px;
+	width:50%;
   box-shadow: 4px 4px 24px rgba(0,0,0,0.12);
 }
 
@@ -688,6 +688,11 @@ img.bkgd-tiles
 
 @media(min-width:992px)
 {
+
+	.video-effect
+	{
+		width:250px;
+	}
 
 	.social-media
 	{
