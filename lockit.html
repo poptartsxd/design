@@ -52,19 +52,20 @@
     </div>
 
     <div id="process-header" class="add-drop-shadow">
-      <li>
-        <a href="#overview">OVERVIEW</a>
-      </li>
-      <li>
-        <a href="#process">PROCESS</a>
-      </li>
-      <li>
-        <a href="#design">DESIGN</a>
-      </li>
-      <li>
-        <a href="#evaluation">EVALUATION</a>
-      </li>
-
+      <div class="process-stuff">
+        <li>
+          <a href="#overview">OVERVIEW</a>
+        </li>
+        <li>
+          <a href="#process">PROCESS</a>
+        </li>
+        <li>
+          <a href="#design">DESIGN</a>
+        </li>
+        <li>
+          <a href="#evaluation">EVALUATION</a>
+        </li>
+      </div>
     </div>
 
     <div class="container-fluid my-container">
@@ -139,7 +140,7 @@
         </div>
         <div class="col-md-6">
 
-          <p class="feature-title" style="padding-top:100px;">
+          <p class="feature-title add-medium-margin">
             Bike space availability
           </p>
 
@@ -151,7 +152,7 @@
       <div class="row">
 
         <div class="col-md-6">
-          <p class="feature-title" style="padding-top:100px;">
+          <p class="feature-title add-medium-margin">
             Reserve space ahead of time
           </p>
           <p>Users will be able to reserve a lock space ahead of time so as to have a peace of mind before heading to their destination.</p>
@@ -179,7 +180,7 @@
         </div>
 
         <div class="col-md-6">
-          <p class="feature-title" style="padding-top:100px;">
+          <p class="feature-title add-medium-margin">
             Monitoring your bike
           </p>
           <p>Users will be able to monitor the location of their bike from the lock screen and know how much time there is left on their reservation.</p>
@@ -193,7 +194,7 @@
 
 
         <div class="col-md-6">
-          <p class="feature-title" style="padding-top:100px;">
+          <p class="feature-title add-medium-margin">
             Better security
           </p>
           <p>Users will be notified if there is unknown tampering with their lock.</p>
@@ -216,7 +217,7 @@
           <img src="images/lockit/modified-u-lock.jpg" class="center-block img-responsive"/>
         </div>
         <div class="col-md-6">
-          <p class="feature-title" style="padding-top:50px;">
+          <p class="feature-title add-small-margin">
             More efficient locking
           </p>
           <p>Users will be able to easily lock their bikes with the new modified U-lock, decreasing locking time.</p>
@@ -252,7 +253,7 @@
           <img src="images/lockit/interviewgtpd.jpg" class="img-responsive center-block"/>
         </div>
 
-        <div class="col-md-6" style="padding-top:70px;">
+        <div class="col-md-6 add-medium-margin">
           <p>We conducted some initial unstructured interviews with the Georgia Tech Police Department (GTPD) on campus. Talking to them gave us a better insight into where most of the crimes on campus were <b>bike thefts</b>. Because of this insight, we decided to survey and interview student bikers.</p>
         </div>
       </div><br><br>
@@ -262,7 +263,7 @@
           <img src="images/lockit/interview1.jpg" class="img-responsive center-block"/>
         </div>
 
-        <div class="col-md-6" style="padding-top:50px;">
+        <div class="col-md-6 add-small-margin">
           <p class="feature-title">Interviews</p>
           <ul class="main-text">
             <li><b>Method: </b>semi-structured interviews</li>
@@ -278,7 +279,7 @@
         <div class="col-md-6">
           <img src="images/lockit/contextualinquiry.jpg" class="img-responsive center-block"/>
         </div>
-        <div class="col-md-6" style="padding-top:50px;">
+        <div class="col-md-6 add-small-margin">
           <p class="feature-title">Contextual Inquiries</p>
           <ul class="main-text">
             <li><b>Method: </b>attaching GoPros to bicycle helmets</li>
@@ -562,7 +563,7 @@
             <img src="images/lockit/screens/reservation-system.jpg" class="img-responsive center-block small-image add-drop-shadow"/>
             <p class="caption text-center">New Reservation System</p>
           </div>
-          <div class="col-md-4" style="padding-top:70px;">
+          <div class="col-md-4 add-small-margin">
             <p>Originally, users could only lock their bike when they arrived at the rack. However, people wanted the <b>ability to make reservations</b> before heading to the location so that they know there is a spot for them at their destination. To make sure people do not overbook spots, I limited booking to only same day.</p>
           </div>
         </div>
@@ -577,7 +578,7 @@
             <img src="images/lockit/screens/map-new.jpg" class="img-responsive center-block small-image add-drop-shadow"/>
             <p class="caption text-center">Map View</p>
           </div>
-          <div class="col-md-4" style="padding-top:70px;">
+          <div class="col-md-4 add-small-margin">
             <p>Originally, we had both list and map views. However, users preferred the map view so they can visually see where there were more available bike racks. In our refinement, the app contained <b>only the map view</b>.</p>
           </div>
         </div>
@@ -594,7 +595,7 @@
             <img src="images/lockit/screens/reserve-new.jpg" class="img-responsive center-block small-image add-drop-shadow"/>
             <p class="caption text-center">Users preferred to enter duration after selecting a location</p>
           </div>
-          <div class="col-md-4" style="padding-top:70px;">
+          <div class="col-md-4 add-small-margin">
             <p>We had the user book the times before selecting a location. However, through feedback and initial testing, users were more likely to <b>select a location<i> before indicating how long they needed to lock their bike for</i></b>. I changed the flow so that users would be able to tap a location before entering the times needed.</p>
           </div>
         </div>

@@ -54,19 +54,20 @@
 
 
 	<div id="process-header" class="add-drop-shadow">
-		<li>
-			<a href="#overview">OVERVIEW</a>
-		</li>
-		<li>
-			<a href="#process">PROCESS</a>
-		</li>
-		<li>
-			<a href="#design">DESIGN</a>
-		</li>
-		<li>
-			<a href="#reflection">REFLECTION</a>
-		</li>
-
+		<div class="process-stuff">
+			<li>
+				<a href="#overview">OVERVIEW</a>
+			</li>
+			<li>
+				<a href="#process">PROCESS</a>
+			</li>
+			<li>
+				<a href="#design">DESIGN</a>
+			</li>
+			<li>
+				<a href="#reflection">REFLECTION</a>
+			</li>
+		</div>
 	</div>
 
 	<div class="container-fluid my-container">
@@ -117,21 +118,35 @@
 
 	</div>
 
-	<div class="container-fluid process-style">
 
-    <div class="row">
-      <div class="col-md-12">
-          <p class="text-center feature-title">High-Level Process</p><br>
-          <img src="images/moviepass/process.png" class="img-responsive"/>
-      </div>
-    </div>
-
-  </div>
 
 
 	<div class="container medium-container add-large-margin">
 
+
 		<div class="row">
+
+
+			<div class="col-md-6">
+
+				<p class="feature-title add-medium-margin">
+					Clearer Check-In Process
+				</p>
+
+				<p>Users will be able to easily check-in to the movie they wish to see. Once checked in, they can manage their booking on the new bookings tab.</p>
+			</div>
+
+			<div class="col-md-6">
+
+				<video autoplay loop class="center-block video-effect" poster="videos/moviepass/placeholder/check-in.jpg">
+					<source src="videos/moviepass/check-in.mov"/>
+				</video>
+			</div>
+
+		</div>
+
+
+		<div class="row add-small-margin">
 
 			<div class="col-md-6">
 
@@ -141,19 +156,20 @@
 			</div>
 			<div class="col-md-6">
 
-				<p class="feature-title" style="padding-top:100px;">
+				<p class="feature-title add-medium-margin">
 					New Bookings Tab
 				</p>
 
-				<p>Users will be able to view, edit, cancel their current bookings. They will be notified when the allotted 30 minutes to book is up.</p>
+				<p>Users will be able to view, edit, cancel their current bookings. They will be notified when the allotted 30 minutes to book is over.</p>
 			</div>
 		</div>
-		<br><br>
 
-		<div class="row">
+
+
+		<div class="row add-small-margin">
 
 			<div class="col-md-6">
-				<p class="feature-title" style="padding-top:100px;">
+				<p class="feature-title add-medium-margin">
 					Improved Navigation
 				</p>
 				<p>Users will be able to navigate the app via the native iOS tab bar. We redesigned the information architecture so only relevant and useful information is presented.</p>
@@ -169,9 +185,8 @@
 
 		</div>
 
-		<br><br>
 
-		<div class="row">
+		<div class="row add-small-margin">
 
 			<div class="col-md-6">
 
@@ -181,7 +196,7 @@
 			</div>
 
 			<div class="col-md-6">
-				<p class="feature-title" style="padding-top:100px;">
+				<p class="feature-title add-medium-margin">
 					Improved Search
 				</p>
 				<p>Default search will be to user's current location. Users will also be able to switch between List and Map view to find theaters.</p>
@@ -190,6 +205,18 @@
 		</div>
 
 	</div>
+
+
+	<div class="container-fluid process-style add-large-margin">
+
+    <div class="row">
+      <div class="col-md-12">
+          <p class="text-center feature-title">High-Level Process</p><br>
+          <img src="images/moviepass/process.png" class="img-responsive"/>
+      </div>
+    </div>
+
+  </div>
 
 
 	<div class="container-fluid my-container" id="process">
@@ -351,6 +378,21 @@
 		<div class="row">
 			<div class="col-md-12">
 				<p class="text-center section-subtitle">Interaction</p>
+				<p class="text-center"><b>Easy check-in process</b></p>
+				<p>Because check-in is the top action done with MoviePass, I wanted to focus on this process. The new redesigned interaction is simple and done within one modal to limit the number of screens users have to go through. Once checked-in, a badge is added to the "Bookings" tab to indicate that the user has completed the process.</p>
+
+				<video autoplay loop class="center-block video-effect add-small-margin" poster="videos/moviepass/placeholder/check-in.jpg">
+					<source src="videos/moviepass/check-in.mov"/>
+				</video>
+
+			</div>
+		</div>
+	</div>
+
+
+	<div class="container-fluid my-container" >
+		<div class="row">
+			<div class="col-md-12">
 				<p class="text-center"><b>Clear navigation bar</b></p>
 				<p>Cleaning up the navigation bar makes it easier for the user to find relevant information on the app.</p>
 			</div>
