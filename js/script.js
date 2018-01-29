@@ -21,10 +21,9 @@ function showResume()
 }
 
 
-// $(window).load(function(){
-//   $(".spinner").fadeOut("slow");
-//   $(".main-content").fadeIn("slow");
-// })
+
+
+
 
 
 

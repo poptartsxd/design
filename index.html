@@ -21,7 +21,13 @@
 
 </head>
 <body>
-
+	<div class="loading-stuff">
+		<div class="outside-spinner">
+			<div class="spinner center-block">
+			</div>
+		</div>
+	</div>
+	<div class="front-page">
 
 	<div class="container top-header medium-container">
 
@@ -60,7 +66,7 @@
 	<div class="container medium-container" id="list-of-projects">
 		<div class="row">
 
-			<div class="col-md-6 text-center">
+			<div class="col-xs-6 text-center">
 				<a class="portfolio-link" href="beneswappe.html">
 					<div id="each-project">
 
@@ -75,7 +81,7 @@
 				</a>
 			</div>
 
-			<div class="col-md-6 text-center">
+			<div class="col-xs-6 text-center">
 				<a class="portfolio-link" href="moviepass.html">
 					<div id="each-project-second">
 						<img src="images/front-images/moviepass.jpg" class="img-responsive center-block project-img"/>
@@ -97,7 +103,7 @@
 
 
 
-			<div class="col-md-6 text-center">
+			<div class="col-xs-6 text-center">
 				<a class="portfolio-link" href="lockit.html">
 					<div id="each-project">
 						<img src="images/front-images/lock-it.jpg" class="img-responsive center-block project-img"/>
@@ -111,7 +117,7 @@
 				</a>
 			</div>
 
-			<div class="col-md-6 text-center">
+			<div class="col-xs-6 text-center">
 				<a class="portfolio-link" href="navy.html">
 					<div id="each-project-second">
 						<img src="images/front-images/navy.jpg" class="img-responsive center-block project-img"/>
@@ -178,7 +184,7 @@
 
 
 	</div>
-
+</div>
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
@@ -186,12 +192,19 @@
 	<script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
 	<script>
 
-	window.sr = ScrollReveal();
-	sr.reveal('#each-project', {duration:1300, origin:'bottom', distance:'50px', scale:1});
-	sr.reveal('#each-project-second', {duration:1300, delay:300, origin:'bottom', distance:'50px', scale:1});
-	sr.reveal('.front-footer', {duration:1300, origin:'bottom', distance:'50px', scale:1});
-	sr.reveal('.my-blurb', {duration:1000, origin:'bottom', distance:'50px', scale:1});
-	sr.reveal('.my-photo', {duration:1300, delay:300, origin:'bottom', distance:'50px', scale:1});
+	$(window).load(function(){
+	  $(".loading-stuff").fadeOut("slow");
+	  $(".front-page ").fadeIn("slow");
+
+		window.sr = ScrollReveal();
+		sr.reveal('#each-project', {duration:1300, origin:'bottom', distance:'50px', scale:1});
+		sr.reveal('#each-project-second', {duration:1300, delay:300, origin:'bottom', distance:'50px', scale:1});
+		sr.reveal('.front-footer', {duration:1300, origin:'bottom', distance:'50px', scale:1});
+		sr.reveal('.my-blurb', {duration:1000, origin:'bottom', distance:'50px', scale:1});
+		sr.reveal('.my-photo', {duration:1300, delay:300, origin:'bottom', distance:'50px', scale:1});
+	})
+
+
 
 
 	</script>
