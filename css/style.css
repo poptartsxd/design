@@ -280,12 +280,11 @@ ul > li::before {
 {
 	height:20px;
 	margin:0;
-	padding:10px;
+	padding:30px;
 }
 
 .social-media
 {
-	padding: 5px;
 	float:left;
 	margin-bottom:20px;
 }
@@ -352,9 +351,12 @@ a.go-home{
   position: relative;
 	color:rgba(0,0,0,0.87);
   text-decoration: none;
-	font-size:1.2em;
+	font-size:1.3em;
 	font-weight:400;
-	padding:5px;
+}
+
+a.go-home:hover{
+	font-weight:500;
 }
 
 a#active
@@ -773,7 +775,6 @@ img.bkgd-tiles
 
 	.social-media
 	{
-		padding:5px;
 		float:right;
 	}
 
