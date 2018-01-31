@@ -350,10 +350,12 @@ a.personal-title{
 a.go-home{
 	font-family: 'futura-pt', sans-serif;
   position: relative;
-  color: #000000;
+	color:rgba(0,0,0,0.87);
   text-decoration: none;
-	font-size:1.2em;
-  font-weight:400;
+	font-size:1.5em;
+	letter-spacing:1px;
+	font-weight:600;
+	padding:5px;
 }
 
 a#active
