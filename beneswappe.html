@@ -11,6 +11,8 @@
 
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/ekko-lightbox.css">
+
 	<script src="https://use.fontawesome.com/6eab716f23.js"></script>
 	<link rel="icon" type="image/png" href="images/favicon.png">
 
@@ -333,10 +335,16 @@
 
 			<div class="row">
 				<div class="col-md-6">
-					<img src="images/beneswappe/persona-1.jpg" class="img-responsive add-drop-shadow"/>
+					<a href="images/beneswappe/persona-1.jpg" data-toggle="lightbox" data-gallery="personas" data-title="Tania - the busy student">
+						<img src="images/beneswappe/persona-1.jpg" class="img-responsive add-drop-shadow"/>
+					</a>
+					<p class="caption text-center">Tania - the busy student</p>
 				</div>
 				<div class="col-md-6">
-					<img src="images/beneswappe/persona-2.jpg" class="img-responsive add-drop-shadow"/>
+					<a href="images/beneswappe/persona-2.jpg" data-toggle="lightbox" data-gallery="personas" data-title="Alex - the social butterfly">
+						<img src="images/beneswappe/persona-2.jpg" class="img-responsive add-drop-shadow"/>
+					</a>
+					<p class="caption text-center">Alex - the social butterfly</p>
 				</div>
 			</div>
 		</div>
@@ -347,10 +355,10 @@
 			<div class="row">
 				<div class="col-md-12">
 					<p class="text-center section-subtitle">Design Decisions</p>
-					<p>Based on my interview and analysis, I decided to create a website where groups of friends, coworkers, or classmates can come together to swap clothes.</p>
+					<p>Based on my research insights, I decided to create a place where groups of friends, coworkers, or classmates can come together to swap clothes. Below are some features that I came up with to include:</p>
 
-					<p class="vertical-divider"><b>Users should be able to access the site from any web browser and any device</b></p>
-					<p>Because clothes swapping is not a daily activity, I decided against a mobile app. Instead, I decided to create a website that is responsive, giving users the option to use the site on their laptops or their phones.</p>
+					<p class="vertical-divider"><b>Users should be able to access from any device (desktop or mobile)</b></p>
+					<p>Because clothes swapping is not a daily activity, I decided against a mobile app. Instead, I decided to create a <i>responsive website</i>, giving users the option to use the site on their laptops or their phones.</p>
 					<p class="vertical-divider"><b>Users should be able to add their unwanted clothes to a central repository</b></p>
 					<p>Allowing groups of people to add their unwanted clothing to a centralized location allows other members of the group to <i>browse items asynchronously, making swapping more efficient</i>.</p>
 					<p class="vertical-divider"><b>Users should be able to see items that other members have uploaded </b></p>
@@ -381,7 +389,7 @@
 
 			<div class="row">
 				<div class="col-md-12">
-					<img src="images/beneswappe/flowchart.jpg" class="img-responsive center-block add-small-margin extra-medium-image"/>
+					<img src="images/beneswappe/flowchart.jpg" class="img-responsive center-block add-small-margin slightly-larger-than-medium-large-image"/>
 				</div>
 			</div>
 		</div>
@@ -423,28 +431,31 @@
 
 			<div class="row">
 				<div class="col-md-3 text-center">
-					<img src="images/beneswappe/sketches-1.jpg" class="img-responsive center-block add-small-margin slightly-larger-than-medium-large-image"/><br>
-					<p class="caption">Main page + Requests page</p><br>
+
+					<a href="images/beneswappe/sketches-1.jpg" data-toggle="lightbox" data-title="Sketches">
+						<img src="images/beneswappe/sketches-1.jpg" class="img-responsive center-block add-small-margin slightly-larger-than-medium-large-image"/>
+					</a>
+					<p class="caption">Main page + Requests page</p>
 
 
 				</div>
 				<div class="col-md-3 text-center">
-					<img src="images/beneswappe/sketches-2.jpg" class="img-responsive center-block add-small-margin slightly-larger-than-medium-large-image"/><br>
-					<p class="caption">All closets page</p><br>
+					<img src="images/beneswappe/sketches-2.jpg" class="img-responsive center-block add-small-margin slightly-larger-than-medium-large-image"/>
+					<p class="caption">All closets page</p>
 
 
 				</div>
 
 
 				<div class="col-md-3 text-center">
-					<img src="images/beneswappe/sketches-3.jpg" class="img-responsive center-block add-small-margin slightly-larger-than-medium-large-image"/><br>
-					<p class="caption">Upload functionality - single versus multiple</p><br>
+					<img src="images/beneswappe/sketches-3.jpg" class="img-responsive center-block add-small-margin slightly-larger-than-medium-large-image"/>
+					<p class="caption">Upload functionality - single versus multiple</p>
 
 
 				</div>
 				<div class="col-md-3 text-center">
-					<img src="images/beneswappe/sketches-4.jpg" class="img-responsive center-block add-small-margin slightly-larger-than-medium-large-image"/><br>
-					<p class="caption">Icon sketches + Request page</p><br>
+					<img src="images/beneswappe/sketches-4.jpg" class="img-responsive center-block add-small-margin slightly-larger-than-medium-large-image"/>
+					<p class="caption">Icon sketches + Request page</p>
 
 
 				</div>
@@ -461,11 +472,19 @@
 		<div class="container-fluid my-container" id="design">
 			<div class="row">
 				<div class="col-md-12">
-				<img src="images/beneswappe/icons/cloud.svg" class="center-block small-icons"/>
+					<img src="images/beneswappe/icons/cloud.svg" class="center-block small-icons"/>
 					<p class="text-center section-title">High Fidelity Designs</p>
-					<p>I created comps for 3 screen sizes: mobile, tablet, and desktop. I started designing <b>mobile first</b>. Because of the screen constraint, this helped me determine what were the most important functionalities to include and prioritize.</p>
-					<p class="text-center add-small-margin section-subtitle">Browsing items</p>
-					<p>Users can browse all available items by their friend's closet or by applying filters.</p>
+					<p>I started designing the site <b>mobile first</b>. Because of the screen constraint, this helped me determine what were the most important functionalities to include and prioritize.</p><br>
+
+					<p>I created comps for 3 screen sizes: mobile, tablet, and desktop, using Sketch and Autolayout (Sketch plugin that made it quick and easy to adjust screens to different widths). Screens were then put into InVision to get quick feedback from users. I created prototypes using Principle to demonstrate transitions and interactions. There are 4 main actions a user would take:</p>
+
+					<p class="vertical-divider"><b>1 - Browsing items<br>
+						2 - Adding an item and initiating a swap<br>
+						3 - Uploading an item<br>
+						4 - Managing requests</b></p>
+
+					<p class="text-center add-small-margin section-subtitle">1 - Browsing items</p>
+					<p>Users can browse all available items in 2 ways: by friend's closet or by applying filters.</p>
 				</div>
 			</div>
 		</div>
@@ -524,60 +543,14 @@
 
 		</div>
 
-		<div class="container-fluid my-container">
-			<div class="row">
-				<div class="col-md-12">
-					<p class="text-center"><b>Interface Design</b></p>
-				</div>
-			</div>
-		</div>
 
-
-
-
-		<div class="container">
-
-			<div class="row">
-				<div class="col-md-12 text-center">
-					<img src="images/beneswappe/screens/all-closets.jpg" class="img-responsive center-block add-small-margin large-image"/>
-					<br><p class="caption">All Closets</p>
-				</div>
-			</div>
-
-
-			<div class="row">
-				<div class="col-md-12 text-center">
-					<img src="images/beneswappe/screens/individual-closet.jpg" class="img-responsive center-block add-small-margin large-image"/>
-					<br><p class="caption">Individual Closet</p>
-				</div>
-			</div>
-
-
-			<div class="row">
-				<div class="col-md-12 text-center">
-					<img src="images/beneswappe/screens/all-clothing.jpg" class="img-responsive center-block add-small-margin large-image"/>
-					<br><p class="caption">All Clothing</p>
-				</div>
-			</div>
-
-
-			<div class="row">
-				<div class="col-md-12 text-center">
-					<img src="images/beneswappe/screens/filter.jpg" class="img-responsive center-block add-small-margin large-image"/>
-					<br><p class="caption">Adding a filter</p>
-				</div>
-			</div>
-
-
-
-		</div>
 
 
 
 		<div class="container-fluid my-container">
 			<div class="row">
 				<div class="col-md-12">
-					<p class="text-center add-small-margin section-subtitle">Adding an item and initiating a swap</p>
+					<p class="text-center add-small-margin section-subtitle">2 - Adding an item and initiating a swap</p>
 					<p>Users can easily initiate a swap from the site. This starts off the process to the owner that someone has requested an item.</p>
 				</div>
 			</div>
@@ -635,36 +608,11 @@
 		</div>
 
 
-		<div class="container-fluid my-container">
-			<div class="row">
-				<div class="col-md-12">
-					<p class="text-center"><b>Interface Design</b></p>
-				</div>
-			</div>
-		</div>
-
-
-
-
-		<div class="container">
-
-
-			<div class="row">
-				<div class="col-md-12 text-center">
-					<img src="images/beneswappe/screens/cart.jpg" class="img-responsive center-block add-small-margin large-image"/>
-					<br><p class="caption">Viewing your bag</p>
-				</div>
-			</div>
-
-
-		</div>
-
-
 
 		<div class="container-fluid my-container">
 			<div class="row">
 				<div class="col-md-12">
-					<p class="text-center add-small-margin section-subtitle">Uploading your item</p>
+					<p class="text-center add-small-margin section-subtitle">3 - Uploading your item</p>
 					<p>Users can upload items they want to add from their individual pages. Users can add/edit their closet from this page.</p>
 				</div>
 			</div>
@@ -686,13 +634,13 @@
 			<div class="row">
 
 				<div class="col-md-6">
-					<video autoplay loop class="center-block video-effect" poster="videos/beneswappe/placeholders/upload-item.png">
+					<video autoplay loop class="center-block video-effect" poster="videos/beneswappe/placeholders/upload-item.jpg">
 						<source src="videos/beneswappe/upload-item.mov"/>
 					</video>
 				</div>
 
 				<div class="col-md-6 add-medium-margin">
-					<p><b>Uploading an item</b></p>
+					<p><b>Adding an item to your closet</b></p>
 					<p>Creating a profile page allows the user to see their information as well as what items they currently have listed. From this page, they can add new items by inputting the appropriate characteristics. This allows for the filtering option.</p>
 				</div>
 
@@ -701,47 +649,12 @@
 
 		</div>
 
-		<div class="container-fluid my-container">
-			<div class="row">
-				<div class="col-md-12">
-					<p class="text-center"><b>Interface Design</b></p>
-				</div>
-			</div>
-		</div>
-
-
-
-		<div class="container">
-
-			<div class="row">
-				<div class="col-md-12 text-center">
-					<img src="images/beneswappe/screens/individual-page.jpg" class="img-responsive center-block add-small-margin large-image"/><br>
-					<p class="caption">Individual page</p>
-				</div>
-			</div>
-
-			<div class="row add-small-margin">
-				<div class="col-md-4 col-md-offset-2 text-center">
-					<img src="images/beneswappe/screens/add-your-clothes.jpg" class="img-responsive center-block large-image"/><br>
-					<p class="caption">Adding clothes modal (desktop/tablet)</p>
-				</div>
-
-				<div class="col-md-4 text-center">
-					<img src="images/beneswappe/screens/edit-your-clothes.jpg" class="img-responsive center-block large-image"/><br>
-					<p class="caption">Editing clothes modal (desktop/tablet)</p>
-				</div>
-			</div>
-
-
-
-		</div>
-
 
 
 		<div class="container-fluid my-container">
 			<div class="row">
 				<div class="col-md-12">
-					<p class="text-center add-small-margin section-subtitle">Managing Requests</p>
+					<p class="text-center add-small-margin section-subtitle">4 - Managing Requests</p>
 					<p>I created the Request page so that users can better manage their sent and received requests. They can see the items that the requestor has selected and communicate with them about the request on that page.</p>
 				</div>
 			</div>
@@ -759,33 +672,36 @@
 
 
 
-				<div class="container medium-container add-medium-margin">
+		<div class="container medium-container add-medium-margin">
 
-					<div class="row">
+			<div class="row">
 
-						<div class="col-md-6">
-							<video autoplay loop class="center-block video-effect" poster="videos/beneswappe/placeholders/requests.jpg">
-								<source src="videos/beneswappe/requests.mov"/>
-							</video>
-						</div>
-
-						<div class="col-md-6 add-medium-margin">
-							<p><b>Managing requests</b></p>
-							<p>Users manage their requests within the BeneSwappe site. Each request is on its own page so that users can see all pertinent information to a single request: 1) items requested, 2) communication, and 3) status. </p>
-						</div>
-
-
-					</div>
-
-
-
+				<div class="col-md-6">
+					<video autoplay loop class="center-block video-effect" poster="videos/beneswappe/placeholders/requests.jpg">
+						<source src="videos/beneswappe/requests.mov"/>
+					</video>
 				</div>
+
+				<div class="col-md-6 add-medium-margin">
+					<p><b>Managing requests</b></p>
+					<p>Users manage their requests within the BeneSwappe site. Each request is on its own page so that users can see all pertinent information to a single request: 1) items requested, 2) communication, and 3) status. </p>
+				</div>
+
+
+			</div>
+
+
+
+		</div>
+
+
 
 
 		<div class="container-fluid my-container">
 			<div class="row">
 				<div class="col-md-12">
-					<p class="text-center"><b>Interface Design</b></p>
+					<p class="section-subtitle text-center">Interface Designs</p>
+					<p>These are the comps I made for desktop, tablet, and mobile. Click on the image to view the details of each screen!</p>
 				</div>
 			</div>
 		</div>
@@ -793,28 +709,107 @@
 
 		<div class="container">
 
-
-
 			<div class="row">
-				<div class="col-md-12 text-center">
-					<img src="images/beneswappe/screens/received-requests.jpg" class="img-responsive center-block add-small-margin large-image"/>
-					<br><p class="caption">Requests received</p>
+				<div class="col-md-6 text-center">
+					<a href="images/beneswappe/screens/all-closets.jpg" data-toggle="lightbox" data-gallery="interface-screens" data-title="All Closets">
+						<img src="images/beneswappe/screens/all-closets.jpg" class="img-responsive center-block add-small-margin large-image"/>
+					</a>
+					<p class="caption">All Closets</p>
+				</div>
+
+				<div class="col-md-6 text-center">
+					<a href="images/beneswappe/screens/individual-closet.jpg" data-toggle="lightbox" data-gallery="interface-screens" data-title="Individual Closet">
+						<img src="images/beneswappe/screens/individual-closet.jpg" class="img-responsive center-block add-small-margin large-image"/>
+					</a>
+					<p class="caption">Individual Closet</p>
 				</div>
 			</div>
 
 
 			<div class="row">
-				<div class="col-md-12 text-center">
-					<img src="images/beneswappe/screens/sent-requests.jpg" class="img-responsive center-block add-small-margin large-image"/>
-					<br><p class="caption">Requests sent</p>
+				<div class="col-md-6 text-center">
+					<a href="images/beneswappe/screens/all-clothing.jpg" data-toggle="lightbox" data-gallery="interface-screens" data-title="All Clothing">
+						<img src="images/beneswappe/screens/all-clothing.jpg" class="img-responsive center-block add-small-margin large-image"/>
+					</a>
+					<p class="caption">All Clothing</p>
+				</div>
+
+
+				<div class="col-md-6 text-center">
+					<a href="images/beneswappe/screens/filter.jpg" data-toggle="lightbox" data-gallery="interface-screens" data-title="Adding a filter">
+						<img src="images/beneswappe/screens/filter.jpg" class="img-responsive center-block add-small-margin large-image"/>
+					</a>
+					<p class="caption">Adding a filter</p>
+				</div>
+			</div>
+
+
+
+
+
+			<div class="row">
+				<div class="col-md-6 text-center">
+					<a href="images/beneswappe/screens/cart.jpg" data-toggle="lightbox" data-gallery="interface-screens" data-title="Viewing your bag">
+						<img src="images/beneswappe/screens/cart.jpg" class="img-responsive center-block add-small-margin large-image"/>
+					</a>
+					<p class="caption">Viewing your bag</p>
+				</div>
+
+
+				<div class="col-md-6 text-center">
+					<a href="images/beneswappe/screens/individual-page.jpg" data-toggle="lightbox" data-gallery="interface-screens" data-title="Individual Page">
+						<img src="images/beneswappe/screens/individual-page.jpg" class="img-responsive center-block add-small-margin large-image"/>
+					</a>
+					<p class="caption">Individual page</p>
+				</div>
+
+			</div>
+
+
+
+
+			<div class="row">
+				<div class="col-md-6 text-center">
+					<a href="images/beneswappe/screens/received-requests.jpg" data-toggle="lightbox" data-gallery="interface-screens" data-title="Requests Received">
+						<img src="images/beneswappe/screens/received-requests.jpg" class="img-responsive center-block add-small-margin large-image"/>
+					</a>
+					<p class="caption">Requests received</p>
+				</div>
+
+				<div class="col-md-6 text-center">
+					<a href="images/beneswappe/screens/sent-requests.jpg" data-toggle="lightbox" data-gallery="interface-screens" data-title="Requests Sent">
+						<img src="images/beneswappe/screens/sent-requests.jpg" class="img-responsive center-block add-small-margin large-image"/>
+					</a>
+					<p class="caption">Requests sent</p>
 				</div>
 			</div>
 
 			<div class="row">
-				<div class="col-md-12 text-center">
-					<img src="images/beneswappe/screens/one-request.jpg" class="img-responsive center-block add-small-margin large-image"/>
-					<br><p class="caption">Single request</p>
+				<div class="col-md-6 text-center">
+					<a href="images/beneswappe/screens/one-request.jpg" data-toggle="lightbox" data-gallery="interface-screens" data-title="Single Request">
+						<img src="images/beneswappe/screens/one-request.jpg" class="img-responsive center-block add-small-margin large-image"/>
+					</a>
+					<p class="caption">Single request</p>
 				</div>
+
+
+
+				<div class="col-md-3 text-center add-small-margin">
+					<a href="images/beneswappe/screens/add-your-clothes.jpg" data-toggle="lightbox" data-gallery="interface-screens" data-title="Add your clothes modal for desktop/tablet">
+						<img src="images/beneswappe/screens/add-your-clothes.jpg" class="img-responsive center-block large-image"/>
+					</a>
+					<p class="caption">Adding clothes modal (desktop/tablet)</p>
+				</div>
+
+				<div class="col-md-3 text-center add-small-margin">
+					<a href="images/beneswappe/screens/edit-your-clothes.jpg" data-toggle="lightbox" data-gallery="interface-screens" data-title="Edit your clothes modal for desktop/tablet">
+						<img src="images/beneswappe/screens/edit-your-clothes.jpg" class="img-responsive center-block large-image"/>
+					</a>
+					<p class="caption">Editing clothes modal (desktop/tablet)</p>
+				</div>
+
+
+
 			</div>
 
 
@@ -824,7 +819,7 @@
 		<div class="container-fluid my-container">
 			<div class="row">
 				<div class="col-md-12">
-					<p class="text-center"><b>Colors</b></p>
+					<p class="text-center section-subtitle">Visual Design</p>
 					<p>Black and white were primarily used to create an overall clean design as images of items would already be too colorful. A shade of blue and a shade of yellow were used to highlight actions on each page.</p>
 				</div>
 			</div>
@@ -857,9 +852,13 @@
 
 			<div class="row">
 				<div class="col-md-6 text-center">
-					<img src="images/beneswappe/screens/msgs.jpg" class="img-responsive center-block add-small-margin slightly-larger-than-medium-large-image"/><br>
+					<a href="images/beneswappe/screens/msgs.jpg" data-toggle="lightbox" data-gallery="messages-stuff" data-title="Messages page">
+						<img src="images/beneswappe/screens/msgs.jpg" class="img-responsive center-block add-small-margin slightly-larger-than-medium-large-image"/><br>
+					</a>
 					<p class="caption">Messages page</p>
-					<img src="images/beneswappe/screens/empty-msgs.jpg" class="img-responsive center-block add-small-margin slightly-larger-than-medium-large-image"/><br>
+					<a href="images/beneswappe/screens/empty-msgs.jpg" data-toggle="lightbox" data-gallery="messages-stuff" data-title="Empty messages page">
+						<img src="images/beneswappe/screens/empty-msgs.jpg" class="img-responsive center-block add-small-margin slightly-larger-than-medium-large-image"/><br>
+					</a>
 					<p class="caption">Empty messages page</p>
 
 				</div>
@@ -944,8 +943,15 @@
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
+	<script src="js/ekko-lightbox.min.js"></script>
 	<script src="js/script.js"></script>
 	<script>
+
+
+	$(document).on('click', '[data-toggle="lightbox"]', function(event) {
+		event.preventDefault();
+		$(this).ekkoLightbox();
+	});
 
 	var played = false;
 

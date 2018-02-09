@@ -593,6 +593,18 @@ img.bkgd-tiles
 	margin-top:150px;
 }
 
+/*Modal stuff*/
+.modal-title
+{
+	font-family: 'futura-pt', sans-serif;
+	font-size: 1.6em;
+	color:rgba(0,0,0,0.87);
+	letter-spacing: 0.7px;
+	font-weight:600;
+	text-transform: uppercase;
+}
+
+
 /*loading stuff*/
 .front-page
 {
@@ -734,7 +746,7 @@ img.bkgd-tiles
 		height:50px;
 		background-color:#FFFFFF;
 		color: rgba(0,0,0,0.8);
-		z-index:9999;
+		z-index:1;
 		display: none;
 		text-decoration:none;
 		font-family:'futura-pt', sans-serif;
