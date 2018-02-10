@@ -2,8 +2,9 @@
 p
 {
 	font-family: 'Lora', serif;
-	font-size:1.15em;
-	line-height: 2.0;
+	font-size:1.2em;
+	line-height: 1.75;
+	color:rgba(0,0,0,0.87);
 }
 
 .main-text
@@ -22,8 +23,9 @@ p
 
 .page-title
 {
-	font-family: 'Lora', serif;
-	font-size: 2.0em;
+	font-family: 'futura-pt', sans-serif;
+	font-size: 2.5em;
+	font-weight:600;
 }
 
 a.page-title
@@ -47,28 +49,27 @@ a.page-title:hover
 .personal-title
 {
 	font-family: 'futura-pt', sans-serif;
-	font-size: 1em;
-	/*color: #7E7E7E;*/
-	text-transform:uppercase;
+	font-size: 1.1em;
+	color: rgba(0,0,0,0.54);
 	letter-spacing: 0.7px;
+	margin-top:10px;
 }
 
 .section-title
 {
 	font-family: 'futura-pt', sans-serif;
 	font-size: 1em;
-	/*color: #7E7E7E;*/
 	text-transform:uppercase;
 	letter-spacing: 1.5px;
+	margin-top:10px;
 }
 
 .section-subtitle
 {
-	font-family: 'Lora', serif;
-	font-size: 1.75em;
-	font-style:italic;
-	/*color: #7E7E7E;*/
-	margin-bottom:20px;
+	font-family: 'futura-pt', sans-serif;
+	font-size: 2em;
+	font-weight:600;
+	margin-bottom:30px;
 }
 
 .feature-title
@@ -117,8 +118,6 @@ a.page-title:hover
 	letter-spacing: 0.7px;
 	line-height:1.2em;
 }
-
-
 
 #back-to-top
 {
@@ -304,6 +303,12 @@ ul > li::before {
 	margin-bottom:20px;
 }
 
+.menu-thing
+{
+	float:left;
+	margin-bottom:20px;
+}
+
 a.mail
 {
 	color:#000;
@@ -346,12 +351,20 @@ a.link:hover
 a.personal-title{
 	font-family: 'futura-pt', sans-serif;
   position: relative;
-  color: #000;
+  color: rgba(0,0,0,0.54);
   text-decoration: none;
   padding-right: 20px;
 	letter-spacing: 1px;
+	margin-top:10px;
 }
 
+a.personal-title:hover{
+	color:rgba(0,0,0,0.87);
+}
+
+#about:focus{
+	outline:0;
+}
 
 #home-header
 {
@@ -381,51 +394,20 @@ a#active
 }
 
 /*FRONT PAGE BOXES*/
-.lockit-box
-{
-	background-color:#8FA9BF;
-}
 
-.gift-box
-{
-	background-color: #A65753;
-}
 
-.moviepass-box
-{
-	background-color: #D9B0AD;
-}
 
-.navy-box
-{
-	background-color: #3E4C5E;
-}
-
-.add-small-margin
-{
-	margin-top:50px;
-}
-
-.add-medium-margin
-{
-	margin-top:100px !important;
-}
-
-.add-large-margin
-{
-	margin-top:150px !important;
-}
 
 .project-img
 {
-	transition: all .2s ease-in-out;
+	transition: all .3s ease-in-out;
 }
 
 .project-img:hover
 {
-	-webkit-transform: scale(0.95);
-	-ms-transform: scale(0.95);
-	transform: scale(0.95);
+	-webkit-transform: scale(1.04);
+	-ms-transform: scale(1.04);
+	transform: scale(1.04);
 }
 
 .each-project .project-desc
@@ -457,7 +439,6 @@ img.bkgd-tiles
 	overflow:hidden;
 }
 
-/*IMAGE SIZINGS*/
 .dog-image
 {
 	width:200px;
@@ -556,6 +537,11 @@ img.bkgd-tiles
 	width:100px;
 	/*margin-top:50px;*/
 	margin-bottom:50px;
+}
+
+.add-small-margin, .add-medium-margin, .add-large-margin
+{
+	margin-top:50px !important;
 }
 
 .process-style
@@ -800,6 +786,26 @@ img.bkgd-tiles
 @media(min-width:992px)
 {
 
+	.front-desc
+	{
+		padding-left:50px;
+	}
+
+	.add-small-margin
+	{
+		margin-top:50px;
+	}
+
+	.add-medium-margin
+	{
+		margin-top:100px !important;
+	}
+
+	.add-large-margin
+	{
+		margin-top:150px !important;
+	}
+
 	.video-effect
 	{
 		width:250px;
@@ -810,17 +816,16 @@ img.bkgd-tiles
 		float:right;
 	}
 
+	.menu-thing
+	{
+		float:right;
+	}
+
 	.medium-container
 	{
 		padding-left:100px;
 		padding-right:100px;
 		margin-top:50px;
-	}
-
-	.front-desc
-	{
-		margin-left:25px;
-		margin-right:25px;
 	}
 
 	#fixed-side-nav
@@ -859,7 +864,7 @@ img.bkgd-tiles
 	.my-container
 	{
 		margin-top:100px;
-		width: 500px;
+		width: 700px;
 	}
 
 
