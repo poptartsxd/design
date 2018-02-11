@@ -11,6 +11,8 @@
 
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/ekko-lightbox.css">
+
 	<script src="https://use.fontawesome.com/6eab716f23.js"></script>
 	<link rel="icon" type="image/png" href="images/favicon.png">
 
@@ -275,7 +277,7 @@
 					<li>booking a showtime</li>
 				</ol>
 				<p>We asked 5 MoviePass users to conduct these tasks (and a few others) on the current app. Afterwards, we conducted a feedback interview session to get their thoughts. Some of the responses we got were:</p>
-				<p class="vertical-divider-red"><i>"It's so hard to cancel my booking or edit it. I don't even know where to go after I check in."</i></p>
+				<p class="vertical-divider-red"><i>"It's so hard to cancel my booking or edit it. I don't know where to go after I check in."</i></p>
 				<p class="vertical-divider-red"><i>"Even though I'm already at the theater, it's hard to find the listing in the app."</i></p>
 				<p class="vertical-divider-red"><i>"When I'm in line for the counter, I get anxious when I can't find the showtime to check in to because there are always people behind me."</i></p>
 			</div>
@@ -301,8 +303,8 @@
 	<div class="container-fluid my-container">
 		<div class="row">
 			<div class="col-md-12">
-				<p class="text-center section-subtitle">Current user flow</p>
-				<p>We identified areas for improvement by drawing out the current user flow. This was from our own analysis as well as our interviews with users.</p>
+				<p class="text-center section-subtitle">The current app</p>
+				<p>We identified areas for improvement by drawing out the <b>current user flow</b>. This was from our own analysis as well as our interviews with users.</p>
 				<br>
 			</div>
 		</div>
@@ -324,8 +326,8 @@
 	<div class="container-fluid my-container">
 		<div class="row">
 			<div class="col-md-12">
-				<p class="text-center section-subtitle">Personas</p>
-				<p>Based on our interviews and analysis, we created 2 personas used throughout our designs. These personas helped during the design process. Whenever we were stuck, we would think back to our user's goals and needs.</p>
+				<p class="text-center section-subtitle">Creating Personas</p>
+				<p>Based on our interviews and analysis, we created 2 personas used throughout our designs, Zack and Amy. While their frustrations with the app are different, Zack and Amy have a similar goal: to watch a movie using MoviePass.</p>
 			</div>
 		</div>
 	</div>
@@ -335,10 +337,14 @@
 
 		<div class="row">
 			<div class="col-md-6">
-				<img src="images/moviepass/persona-1.jpg" class="img-responsive add-drop-shadow"/>
+				<a href="images/moviepass/persona-1.jpg" data-toggle="lightbox" data-gallery="personas" data-title="Persona - Zack">
+					<img src="images/moviepass/persona-1.jpg" class="img-responsive add-drop-shadow"/>
+				</a>
 			</div>
 			<div class="col-md-6">
+				<a href="images/moviepass/persona-2.jpg" data-toggle="lightbox" data-gallery="personas" data-title="Persona - Amy">
 				<img src="images/moviepass/persona-2.jpg" class="img-responsive add-drop-shadow"/>
+			</a>
 			</div>
 		</div>
 	</div>
@@ -349,8 +355,10 @@
 			<div class="col-md-12">
 				<img src="images/moviepass/icons/movie-reel.svg" class="center-block small-icons"/><br>
 				<p class="text-center section-title">Design</p>
-				<p class="text-center section-subtitle">User Flow</p>
-				<p>Based on user feedback and the weaknesses we identified in the current app, I drew out the ideal user flow for a typical MoviePass user booking a movie.</p>
+				<p class="text-center section-subtitle">What should be changed?</p>
+				<p>Based on user feedback and the weaknesses we identified in the current app, I drew out the <b>ideal user flow</b> someone like Zack or Amy would go through to watch a movie.</p>
+				<p class="vertical-divider-red"><i>Zack feels frustrated when he has to make changes to a previous booking.</i> In our proposed flow, he can easily cancel his previous booking to make a new one.</p>
+				<p class="vertical-divider-red"><i>Amy feels confused as to how to locate a theater.</i> In our redesign, the app displays the theaters closest to the user's location.</p>
 			</div>
 		</div>
 	</div>
@@ -369,8 +377,7 @@
 	<div class="container-fluid my-container">
 		<div class="row">
 			<div class="col-md-12">
-				<p class="text-center section-subtitle">Low-Fidelity Wireframes</p>
-				<p>We created low fidelity wireframes for each major functionality in our new design.</p>
+				<p>To start designing screens, we created <b>low fidelity wireframes</b> for each major functionality in our new design.</p>
 				<br>
 			</div>
 		</div>
@@ -390,7 +397,7 @@
 	<div class="container-fluid my-container">
 		<div class="row">
 			<div class="col-md-12">
-				<p class="text-center section-subtitle">User Feedback Sessions</p>
+				<p class="text-center section-subtitle">Getting user feedback</p>
 				<p>We conducted 5 user feedback sessions based on our low-fidelity wireframes. A prototype was created in InVision and used for these sessions. Users were given 3 tasks to complete:</p>
 				<ol class="main-text">
 					<li>Find "Plaza Theatre" and look for the next showing of "Kingsman: The Golden Circle."</li>
@@ -617,7 +624,7 @@
 	<div class="container-fluid my-container">
 		<div class="row">
 			<div class="col-md-12">
-				<p class="text-center section-subtitle">Visual Design</p>
+				<p class="text-center section-subtitle">Visuals</p>
 				<p class="text-center"><b>Color</b></p>
 				<p>To maintain consistency, the MoviePass red was used as the main color, while using black and white to create a sense of cleanliness and ease.</p>
 				<br>
@@ -791,8 +798,14 @@
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
+<script src="js/ekko-lightbox.min.js"></script>
 <script src="js/script.js"></script>
-
+<script>
+$(document).on('click', '[data-toggle="lightbox"]', function(event) {
+	event.preventDefault();
+	$(this).ekkoLightbox();
+});
+</script>
 
 </body>
 </html>
