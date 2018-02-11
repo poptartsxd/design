@@ -604,7 +604,7 @@ img.bkgd-tiles
 
 
 /*loading stuff*/
-.front-page, .main-content
+.front-page
 {
 	display:none;
 }
