@@ -1,7 +1,7 @@
 /*TEXT*/
 p
 {
-	font-family: 'Lora', serif;
+	font-family: 'proxima-nova', sans-serif;
 	font-size:1.2em;
 	line-height: 1.75;
 	color:rgba(0,0,0,0.87);
@@ -9,14 +9,14 @@ p
 
 .main-text
 {
-	font-family: 'Lora', serif;
+	font-family: 'proxima-nova', sans-serif;
 	font-size:1.15em;
 	line-height: 2.0;
 }
 
 .about-text
 {
-	font-family: 'Lora', serif;
+	font-family: 'proxima-nova', sans-serif;
 	font-size:1em;
 	line-height:1.5;
 }
@@ -50,9 +50,10 @@ a.page-title:hover
 {
 	font-family: 'futura-pt', sans-serif;
 	font-size: 1.1em;
-	color: rgba(0,0,0,0.54);
-	letter-spacing: 0.7px;
+	color: rgba(0,0,0,0.87);
+	letter-spacing: 0.4px;
 	margin-top:10px;
+	font-weight:500;
 }
 
 .section-title
@@ -74,9 +75,9 @@ a.page-title:hover
 
 .feature-title
 {
-	font-family: 'Lora', serif;
+	font-family: 'proxima-nova', sans-serif;
 	font-size: 1.25em;
-	font-weight:700;
+	font-weight:600;
 	padding-top:20px;
 }
 
@@ -103,8 +104,8 @@ a.page-title:hover
 {
 	margin-top:20px;
 	font-family: 'futura-pt', sans-serif;
-	font-size: 1.6em;
-	color:rgba(0,0,0,0.87);
+	font-size: 2em;
+	color:rgba(0,0,0,0.24);
 	letter-spacing: 0.7px;
 	font-weight:600;
 	text-transform: uppercase;
@@ -114,10 +115,12 @@ a.page-title:hover
 {
 	font-family: 'futura-pt', sans-serif;
 	font-size: 1em;
-	color:rgba(0,0,0,0.54);
+	color:rgba(0,0,0,0.87);
 	letter-spacing: 0.7px;
-	line-height:1.2em;
+	line-height:1.3em;
+	font-weight:200;
 }
+
 
 #back-to-top
 {
@@ -151,6 +154,15 @@ a.page-title:hover
 	height:4px;
 	width:100px;
 	background-color:rgba(0,0,0,1);
+	margin-top:10px;
+	margin-bottom:30px;
+}
+
+.divider-grey
+{
+	height:2px;
+	width:40px;
+	background-color:#E6E6E6;
 	margin-top:10px;
 	margin-bottom:30px;
 }
@@ -558,7 +570,7 @@ img.bkgd-tiles
 	background-color:rgba(255,255,255,1);
 	border:2px solid black;
 	border-radius:2px;
-	font-family:'Futura-pt', sans-serif;
+	font-family:'proxima-nova', sans-serif;
 	font-size:1em;
 	color:rgba(0,0,0,0.87);
 	text-decoration:none;
@@ -592,7 +604,7 @@ img.bkgd-tiles
 
 
 /*loading stuff*/
-.front-page
+.front-page, .main-content
 {
 	display:none;
 }
@@ -786,9 +798,15 @@ img.bkgd-tiles
 @media(min-width:992px)
 {
 
+
 	.front-desc
 	{
-		padding-left:50px;
+		padding-right:50px;
+	}
+
+	.add-extra-small-margin
+	{
+		margin-top:10px;
 	}
 
 	.add-small-margin
@@ -865,6 +883,12 @@ img.bkgd-tiles
 	{
 		margin-top:100px;
 		width: 700px;
+	}
+
+	.index-container
+	{
+		width:800px;
+		margin-top:50px;
 	}
 
 

@@ -9,7 +9,6 @@
 
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i|Quicksand:300,400,500,700" rel="stylesheet">
 
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/style.css">
@@ -39,19 +38,24 @@
 	</div>
 	<div class="front-page">
 
-		<div class="container top-header medium-container">
+		<div class="container top-header index-container">
 
 			<div class="row">
-				<div class="col-md-8 text-left">
-					<div class="divider"></div>
-					<p class="name">HI, I'M VICTORIA CHAI!</p>
-					<p class="personal-title">Student by day. Designer by night. Occasional letterer. Real life cookie monster.</p>
+				<div class="col-md-12 text-left">
+					<div class="row">
+						<div class="col-md-8">
+							<div class="divider"></div>
+
+						</div>
+						<div class="col-md-4 text-right menu-thing">
+							<a href="images/resume.pdf" target="_blank" class="personal-title">Resume</a>
+							<a href="#about" class="personal-title">About</a>
+						</div>
+					</div>
+							<p class="name">VICTORIA CHAI</p>
+					<p class="front-text add-extra-small-margin">Student by day. Designer by night. Occasional letterer. Real life cookie monster.</p>
 				</div>
 
-				<div class="col-md-4 text-right menu-thing">
-					<a href="images/resume.pdf" target="_blank" class="personal-title">Resume</a>
-					<a href="#about" target="_blank" class="personal-title">About</a>
-				</div>
 
 			</div>
 
@@ -59,140 +63,167 @@
 
 
 
-		<div class="container medium-container" id="list-of-projects">
+		<div class="container index-container add-medium-margin" id="list-of-projects">
 			<div class="row" id="each-project">
-				<div class="col-md-8 text-center">
+
+
+
+				<div class="col-md-5 front-desc">
+
+					<p class="front-title">BeneSwappe</p>
+					<p class="front-text">BeneSwappe is a website that lets groups of people come together to swap clothes. This is a passion project that I am currently implementing.</p>
+					<p class="personal-title">Interaction Design, Visual Design</p><br><br>
+					<!-- <a href="beneswappe" class="my-btn">View Project</a> -->
+				</div>
+				<div class="col-md-7 text-center">
 					<a class="portfolio-link" href="beneswappe">
 						<img src="images/front-images/beneswappe.jpg" class="img-responsive project-img"/>
 
 					</a>
 				</div>
-				<div class="col-md-4 front-desc add-medium-margin">
-					<p class="front-text">Interaction Design, Visual Design<p>
-						<p class="front-title">BeneSwappe</p>
-						<p class="front-text">BeneSwappe is a website that lets groups of people come together to swap clothes. This is a passion project that I am currently implementing.</p>
+			</div>
+
+
+			<div class="row add-small-margin" id="each-project">
+
+
+				<div class="col-md-5 front-desc">
+					<p class="front-title">MoviePass</p>
+					<p class="front-text">We redesigned the MoviePass app experience for movie lovers using iOS Human Interface Guidelines.</p>
+					<p class="personal-title">UX Design, Visual Design</p><br><br>
+					<!-- <a href="moviepass" class="my-btn">View Project</a> -->
+				</div>
+				<div class="col-md-7 text-center">
+					<a class="portfolio-link" href="moviepass">
+						<img src="images/front-images/moviepass.jpg" class="img-responsive project-img"/>
+
+					</a>
+				</div>
+			</div>
+
+
+			<div class="row add-small-margin" id="each-project">
+
+				<div class="col-md-5 front-desc">
+						<p class="front-title">US Navy</p>
+						<p class="front-text">We created an Android tablet app for pilots so they could easily find crucial information during flight. This was one of my projects while interning at Big Nerd Ranch.</p>
+						<p class="personal-title">Visual Design</p><br><br>
+						<!-- <a href="navy" class="my-btn">View Project</a> -->
+					</div>
+					<div class="col-md-7 text-center">
+						<a class="portfolio-link" href="navy">
+							<img src="images/front-images/navy.jpg" class="img-responsive project-img"/>
+
+						</a>
 					</div>
 				</div>
 
 
 				<div class="row add-small-margin" id="each-project">
-					<div class="col-md-8 text-center">
-						<a class="portfolio-link" href="moviepass">
-							<img src="images/front-images/moviepass.jpg" class="img-responsive project-img"/>
 
-						</a>
-					</div>
-					<div class="col-md-4 front-desc add-medium-margin">
-						<p class="front-text">UX Design, Visual Design<p>
-							<p class="front-title">MoviePass</p>
-							<p class="front-text">We redesigned the MoviePass app experience for movie lovers using iOS Human Interface Guidelines.</p>
+					<div class="col-md-5 front-desc">
+							<p class="front-title">Lock-It</p>
+							<p class="front-text">An iOS app that lets students easily find spaces to park and lock their bikes on Georgia Tech campus.</p>
+							<p class="personal-title">UX Design, UX Research</p><br><br>
+							<!-- <a href="lockit" class="my-btn">View Project</a> -->
 						</div>
-					</div>
-
-
-					<div class="row add-small-margin" id="each-project">
-						<div class="col-md-8 text-center">
-							<a class="portfolio-link" href="navy">
-								<img src="images/front-images/navy.jpg" class="img-responsive project-img"/>
+						<div class="col-md-7 text-center">
+							<a class="portfolio-link" href="lockit">
+								<img src="images/front-images/lock-it.jpg" class="img-responsive project-img"/>
 
 							</a>
 						</div>
-						<div class="col-md-4 front-desc add-medium-margin">
-							<p class="front-text">Visual Design<p>
-								<p class="front-title">US Navy</p>
-								<p class="front-text">We created an Android tablet app for pilots so they could easily find crucial information during flight. This was one of my projects while interning at Big Nerd Ranch.</p>
-							</div>
-						</div>
-
-
 					</div>
 
 
-
-					<div class="container medium-container add-large-margin" id="about">
-
-
-						<div class="row my-blurb">
-
-							<div class="col-md-7 ">
-								<div class="divider"></div>
-								<p class="name">A bit more about me!</p><br>
-								<p class="about-text">I am a design nerd who loves to draw and doodle on the side. I am pursuing a master's degree in Human-Computer Interaction at Georgia Tech, graduating in May 2018. Previously, I was a UX/UI Design Intern at Big Nerd Ranch where I got the chance to design mobile applications for various clients.
-								</p>
-								<p class="about-text">
-									I love creating solutions that address a true user need. Working away into the late nights with my teammates, sitting in front of the whiteboard, and drawing away on scraps of paper, have been some of my favorite parts of this journey.
-								</p>
-								<p class="about-text">
-									My design path wasn't always linear. I studied Accounting as an undergrad but discovered a passion for technology and design towards the end of college. Working as a consultant in the business world helped me develop a strong empathy for my users and clients. I decided to follow my gut and come into the design world.
-								</p>
-								<p class="about-text">
-									Whenever I find the time, I like to rock climb, practice lettering, and eat.</p>
-									<br>
-									<a href="images/resume.pdf" class="my-btn" target="_blank">Resume</a>
-
-								</div>
-
-								<div class="col-md-4 col-md-offset-1 my-photo add-medium-margin">
-									<img src="images/lettering.jpg" class="img-responsive"/>
-								</div>
-
-							</div>
-
-						</div>
-
-
-						<div class="container medium-container front-footer">
-
-							<div class="row">
-								<div class="col-md-10 text-left">
-									<div class="divider"></div>
-									<p class="name">Let's chat!</p>
-									<a href="mailto:victoriachai@gatech.edu" class="personal-title">victoriachai@gatech.edu</a><br><br>
-									<p class="personal-title">Made with &hearts; by Victoria Chai.</p>
-								</div>
-
-								<div class="col-md-2 add-small-margin">
-									<div class="social-media caption">
-
-										<a class="mail" href="mailto:victoriachai@gatech.edu">
-											<img src="images/front-images/mail.svg" class="my-icons"/>
-										</a>&nbsp;
-										<a class="dribbble" href="https://www.dribbble.com/victoriachai" target="_blank">
-											<img src="images/front-images/dribbble.svg" class="my-icons"/>
-										</a>&nbsp;
-										<a class="linkedin" href="https://www.linkedin.com/in/victoriajoanchai" target="_blank">
-											<img src="images/front-images/linkedin.svg" class="my-icons"/>
-										</a>
-
-									</div>
-								</div>
-
-							</div>
-						</div>
-
-
-					</div>
 				</div>
 
-				<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-				<script src="js/bootstrap.min.js"></script>
-				<script src="js/script.js"></script>
-				<script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
-				<script>
-
-				$(window).load(function(){
-					$(".loading-stuff").fadeOut("100");
-					$(".front-page ").fadeIn("1500");
-
-					window.sr = ScrollReveal();
-					sr.reveal('#each-project', {duration:800, origin:'bottom', distance:'500px', scale:1});
-				})
 
 
+				<div class="container index-container add-large-margin" id="about">
 
 
-				</script>
+					<div class="row my-blurb">
+
+						<div class="col-md-8">
+							<div class="divider"></div>
+							<p class="name">A bit more about me!</p><br>
+							<p class="front-text">I am a design nerd who loves to create delightful experiences. I am finishing up my master's degree in Human-Computer Interaction at Georgia Tech, graduating in May! Last summer, I was a UX/UI Design Intern at Big Nerd Ranch where I got to design mobile apps for various clients.
+							</p>
+							<p class="front-text">
+								I love creating solutions that address a true user need. Working away into the late nights with my teammates, sitting in front of the whiteboard, and drawing away on scraps of paper, have been some of my favorite parts of this journey.
+							</p>
+							<p class="front-text">
+								My design path wasn't always linear. I studied Accounting as an undergrad but discovered a passion for technology and design towards the end of college. Working as a consultant in the business world helped me develop a strong empathy for my users and clients. I decided to follow my gut and come into the design world.
+							</p>
+							<p class="front-text">
+								Whenever I find the time, I like to rock climb, practice lettering, and eat.</p>
+								<br>
+								<a href="images/resume.pdf" class="my-btn" target="_blank">Resume</a>
+
+							</div>
+
+							<div class="col-md-4 my-photo add-medium-margin">
+								<img src="images/lettering.jpg" class="img-responsive"/>
+							</div>
+
+						</div>
+
+					</div>
 
 
-			</body>
-			</html>
+					<div class="container index-container front-footer">
+
+						<div class="row">
+							<div class="col-md-10 text-left">
+								<div class="divider"></div>
+								<p class="name">Let's chat!</p>
+								<a href="mailto:victoriachai@gatech.edu" class="personal-title">victoriachai@gatech.edu</a><br><br>
+								<p class="personal-title">Made with &hearts; by Victoria Chai.</p>
+							</div>
+
+							<div class="col-md-2 add-small-margin">
+								<div class="social-media caption">
+
+									<a class="mail" href="mailto:victoriachai@gatech.edu">
+										<img src="images/front-images/mail.svg" class="my-icons"/>
+									</a>&nbsp;
+									<a class="dribbble" href="https://www.dribbble.com/victoriachai" target="_blank">
+										<img src="images/front-images/dribbble.svg" class="my-icons"/>
+									</a>&nbsp;
+									<a class="linkedin" href="https://www.linkedin.com/in/victoriajoanchai" target="_blank">
+										<img src="images/front-images/linkedin.svg" class="my-icons"/>
+									</a>
+
+								</div>
+							</div>
+
+						</div>
+					</div>
+
+
+				</div>
+			</div>
+
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+			<script src="js/bootstrap.min.js"></script>
+			<script src="js/script.js"></script>
+			<script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+			<script>
+
+			$(window).load(function(){
+				$(".loading-stuff").fadeOut("100");
+				$(".front-page ").fadeIn("1500");
+
+				window.sr = ScrollReveal();
+				sr.reveal('#each-project', {duration:800, origin:'bottom', distance:'500px', scale:1});
+			})
+
+
+
+
+			</script>
+
+
+		</body>
+		</html>

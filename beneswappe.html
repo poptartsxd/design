@@ -7,8 +7,6 @@
 
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i|Quicksand:300,400,500,700" rel="stylesheet">
-
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/ekko-lightbox.css">
@@ -22,6 +20,14 @@
 </head>
 
 <body>
+
+	<div class="loading-stuff">
+		<div class="outside-spinner">
+			<div class="spinner center-block">
+			</div>
+		</div>
+	</div>
+
 
 	<div class="main-content">
 		<a href="javascript:" id="back-to-top"><i class="fa fa-arrow-up" aria-hidden="true"></i></a>
@@ -964,6 +970,11 @@
 		<script src="js/ekko-lightbox.min.js"></script>
 		<script src="js/script.js"></script>
 		<script>
+
+		$(window).load(function(){
+			$(".loading-stuff").fadeOut("100");
+			$(".main-content").fadeIn("1500");
+		})
 
 
 		$(document).on('click', '[data-toggle="lightbox"]', function(event) {
