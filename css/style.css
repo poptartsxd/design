@@ -116,9 +116,14 @@ a.page-title:hover
 	font-family: 'futura-pt', sans-serif;
 	font-size: 1em;
 	color:rgba(0,0,0,0.87);
-	letter-spacing: 0.7px;
+	letter-spacing: 0.2px;
 	line-height:1.3em;
 	font-weight:200;
+}
+
+.to-show
+{
+	display:none;
 }
 
 
@@ -360,9 +365,7 @@ a.link:hover
 	font-weight:500;
 }
 
-a.personal-title{
-	font-family: 'futura-pt', sans-serif;
-  position: relative;
+a.front-text{
   color: rgba(0,0,0,0.54);
   text-decoration: none;
   padding-right: 20px;
@@ -370,7 +373,7 @@ a.personal-title{
 	margin-top:10px;
 }
 
-a.personal-title:hover{
+a.front-text:hover{
 	color:rgba(0,0,0,0.87);
 }
 
