@@ -7,10 +7,11 @@
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i|Quicksand:300,400,500,700" rel="stylesheet">
 
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/ekko-lightbox.css">
+
   <script src="https://use.fontawesome.com/6eab716f23.js"></script>
   <link rel="icon" type="image/png" href="images/favicon.png">
 
@@ -347,7 +348,9 @@
 
       <div class="row">
         <div class="col-md-12">
+          <a href="images/lifesaver/flowchart.jpg" data-toggle="lightbox" data-title="Flow Charts">
           <img src="images/lifesaver/flowchart.jpg" class="img-responsive center-block add-small-margin slightly-larger-than-medium-large-image"/>
+        </a>
         </div>
       </div>
     </div>
@@ -377,7 +380,7 @@
       <div class="row">
         <div class="col-md-12">
           <p class="text-center section-subtitle">Sketches and Brainstorming</p>
-          <p>I sketched multiple screens to get started. At this point, while I did not have the full site thought through yet, quick sketching allowed me to put my thoughts onto paper. Below are some example sketches that I did during this part.</p>
+          <p>I sketched multiple screens to get started. At this point, while I did not have the full site thought through yet, quick sketching allowed me to put my thoughts onto paper. Below are some example sketches that I did during this part. Click on the image to view details!</p>
         </div>
       </div>
     </div>
@@ -388,17 +391,23 @@
       <div class="row add-small-margin">
 
         <div class="col-md-4">
-          <img src="images/lifesaver/sketch-1.jpg" class="img-responsive slightly-larger-than-medium-large-image center-block"/>
+          <a href="images/lifesaver/sketch-1.jpg" data-toggle="lightbox" data-title="Different ways of laying out the home screen" data-gallery="sketches">
+            <img src="images/lifesaver/sketch-1.jpg" class="img-responsive slightly-larger-than-medium-large-image center-block"/>
+          </a>
           <p class="caption text-center">Different ways of laying out the home screen</p>
         </div>
 
         <div class="col-md-4">
-          <img src="images/lifesaver/sketch-2.jpg" class="img-responsive slightly-larger-than-medium-large-image center-block"/>
+          <a href="images/lifesaver/sketch-2.jpg" data-toggle="lightbox" data-title="Route Functionality" data-gallery="sketches">
+            <img src="images/lifesaver/sketch-2.jpg" class="img-responsive slightly-larger-than-medium-large-image center-block"/>
+          </a>
           <p class="caption text-center">Route functionality</p>
         </div>
 
         <div class="col-md-4">
-          <img src="images/lifesaver/sketch-3.jpg" class="img-responsive slightly-larger-than-medium-large-image center-block"/>
+          <a href="images/lifesaver/sketch-3.jpg" data-toggle="lightbox" data-title="Map views - locating other users" data-gallery="sketches">
+            <img src="images/lifesaver/sketch-3.jpg" class="img-responsive slightly-larger-than-medium-large-image center-block"/>
+          </a>
           <p class="caption text-center">Map views - locating other users</p>
         </div>
       </div>
@@ -617,9 +626,6 @@
               <img src="images/front-images/home.svg" class="my-icons"/>
             </a>&nbsp;
           </div>
-          <!-- <div class="col-md-6">
-            <p class="nav-text text-right">UP NEXT: <a href="moviepass" class="footer-nav-link">MoviePass &#8594;</a></p>
-          </div> -->
         </div>
       </div>
     </div>
@@ -632,6 +638,13 @@
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
+  <script src="js/ekko-lightbox.min.js"></script>
   <script src="js/script.js"></script>
+  <script>
+  $(document).on('click', '[data-toggle="lightbox"]', function(event) {
+    event.preventDefault();
+    $(this).ekkoLightbox();
+  });
+  </script>
 </body>
 </html>
