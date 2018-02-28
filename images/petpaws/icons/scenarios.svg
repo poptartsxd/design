@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>evaluation</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="evaluation" stroke="#000000" stroke-width="0.810325477">
+            <polygon id="Shape" points="12.5 1.91489362 12.5 3.12765957 7.79545455 3.12765957 7.79545455 1.91489362 3.5 1.91489362 3.5 19.5 17 19.5 17 1.91489362"></polygon>
+            <rect id="Rectangle-path" x="7.79545455" y="0.5" width="4.70454545" height="2.62765957"></rect>
+            <g id="Group-3" transform="translate(5.000000, 5.500000)">
+                <path d="M4.75,1.14265957 L9.75,1.14265957" id="Shape"></path>
+                <rect id="Rectangle-path" x="0.340909091" y="0.0531914894" width="2.45454545" height="2.42553191"></rect>
+            </g>
+            <g id="Group" transform="translate(5.000000, 10.250000)">
+                <path d="M4.75,1.14265957 L9.75,1.14265957" id="Shape"></path>
+                <rect id="Rectangle-path" x="0.340909091" y="0.0531914894" width="2.45454545" height="2.42553191"></rect>
+            </g>
+            <g id="Group-2" transform="translate(5.000000, 15.000000)">
+                <path d="M4.75,1.14265957 L9.75,1.14265957" id="Shape"></path>
+                <rect id="Rectangle-path" x="0.340909091" y="0.0531914894" width="2.45454545" height="2.42553191"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

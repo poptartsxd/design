@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>visual</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="visual" stroke="#000000">
+            <g transform="translate(2.000000, 1.000000)" stroke-width="0.7">
+                <path d="M8.575,0 C1.925,0 0,5.45054945 0,9.84615385 C0,13.5384615 3.15,16 5.775,16 C10.675,16 14,12.7472527 14,9.58241758 C14,6.06593407 11.2875,6.24175824 11.2875,4.65934066 C11.2875,3.07692308 12.075,3.07692308 12.075,2.10989011 C12.075,1.05494505 11.025,0 8.575,0 Z" id="Shape"></path>
+                <ellipse id="Oval" cx="8.3125" cy="3.25274725" rx="1.3125" ry="1.31868132"></ellipse>
+            </g>
+            <g transform="translate(12.132608, 12.855965) rotate(98.000000) translate(-12.132608, -12.855965) translate(7.132608, 6.355965)" fill="#FFFFFF" stroke-width="0.649114092">
+                <rect id="Rectangle-path" transform="translate(5.872498, 5.240125) rotate(-143.620000) translate(-5.872498, -5.240125) " x="5.2167603" y="-0.609875328" width="1.31147541" height="11.7"></rect>
+                <path d="M2.86721311,11.474125 C2.14918033,12.449125 0.314754098,12.71725 0.136065574,12.95775 C0.314754098,12.71725 -0.0819672131,11.05975 0.755737705,9.932 C1.47377049,8.96675 2.16065574,9.22025 2.64918033,9.576125 C3.13770492,9.932 3.5852459,10.508875 2.86721311,11.474125 Z" id="Shape" fill-rule="nonzero"></path>
+            </g>
+        </g>
+    </g>
+</svg>

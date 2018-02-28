@@ -1,4 +1,18 @@
 
+function checkPassword()
+{
+  var myPassword = "androidoreo";
+  var password = document.getElementById("pswd").value;
+  if(password == myPassword){
+    $(".password-stuff").fadeOut(500);
+    $(".main-stuff").fadeIn(500);
+  }else{
+    alert("Password is incorrect. Please try again.");
+    document.getElementById("pswd").value = "";
+  }
+}
+
+
 function showAbout()
 {
   $("#about").fadeIn(1500);

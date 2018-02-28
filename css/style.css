@@ -594,6 +594,59 @@ img.bkgd-tiles
 	margin-top:150px;
 }
 
+/*PetPaws*/
+.main-stuff
+{
+	display:none;
+}
+
+.password-stuff
+{
+	position:absolute;
+	left:0;
+	top:0;
+	width:100%;
+	height:100%;
+	padding-top:250px;
+}
+
+#pswd
+{
+	height:36px;
+	padding:6px;
+}
+
+#pswd:focus
+{outline:none;}
+
+.material-btn
+{
+	background-color:#607BBF;
+	font-family: 'futura-pt', sans-serif;
+	color:white;
+	border:none;
+	border-radius: 2px;
+  padding: 6px 16px;
+  min-width: 88px;
+  height: 36px;
+	box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14),
+               0 1px 5px 0 rgba(0, 0, 0, 0.12),
+               0 3px 1px -2px rgba(0, 0, 0, 0.2);
+  transition: box-shadow 0.28s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.material-btn:active
+{
+	box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2);
+	transition-delay: 0s;
+}
+
+.material-btn:focus
+{
+	outline:none;
+}
+
+
 /*Modal stuff*/
 .modal-title
 {
@@ -603,6 +656,19 @@ img.bkgd-tiles
 	letter-spacing: 0.7px;
 	font-weight:600;
 	text-transform: uppercase;
+}
+
+.modal-dialog {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.modal-content {
+  height: auto;
+  min-height: 100%;
+  border-radius: 0;
 }
 
 
