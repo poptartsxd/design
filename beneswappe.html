@@ -9,7 +9,7 @@
 
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/style.css">
-	<link rel="stylesheet" href="css/ekko-lightbox.css">
+	<link rel="stylesheet" href="css/lightgallery.css">
 
 	<script src="https://use.fontawesome.com/6eab716f23.js"></script>
 	<link rel="icon" type="image/png" href="images/favicon.png">
@@ -296,8 +296,10 @@
 		<div class="container">
 
 			<div class="row">
-				<div class="col-md-12">
-					<img src="images/beneswappe/taskanalysis.jpg" class="img-responsive center-block add-small-margin extra-medium-image"/>
+				<div class="col-md-12" id="task-analysis">
+					<a href="images/beneswappe/taskanalysis.jpg" data-sub-html="Hierarchical Task Analysis">
+						<img src="images/beneswappe/taskanalysis.jpg" class="img-responsive center-block add-small-margin extra-medium-image"/>
+					</a>
 				</div>
 			</div>
 
@@ -350,19 +352,25 @@
 
 		<div class="container add-small-margin">
 
-			<div class="row">
-				<div class="col-md-6">
-					<a href="images/beneswappe/persona-1.jpg" data-toggle="lightbox" data-gallery="personas" data-title="Tania - the busy student">
+			<div class="row"  id="persona-views">
+				<a href="images/beneswappe/persona-1.jpg">
+					<div class="col-md-6">
+
 						<img src="images/beneswappe/persona-1.jpg" class="img-responsive add-drop-shadow"/>
-					</a>
-					<p class="caption text-center">Tania - the busy student</p>
-				</div>
-				<div class="col-md-6">
-					<a href="images/beneswappe/persona-2.jpg" data-toggle="lightbox" data-gallery="personas" data-title="Alex - the social butterfly">
+
+						<p class="caption text-center">Tania - the busy student</p>
+					</div>
+				</a>
+
+				<a href="images/beneswappe/persona-2.jpg">
+					<div class="col-md-6">
 						<img src="images/beneswappe/persona-2.jpg" class="img-responsive add-drop-shadow"/>
-					</a>
-					<p class="caption text-center">Alex - the social butterfly</p>
-				</div>
+						<p class="caption text-center">Alex - the social butterfly</p>
+					</div>
+
+				</a>
+
+
 			</div>
 		</div>
 
@@ -385,28 +393,32 @@
 
 		<div class="container-fluid medium-container">
 
-			<div class="row add-small-margin">
-				<div class="col-md-2 col-md-offset-3">
+			<div class="row add-small-margin" id="idea-gallery">
+				<a href="images/beneswappe/sketch-mobile-app.jpg" data-sub-html="Mobile App Idea">
+					<div class="col-md-2 col-md-offset-3">
 
-					<a href="images/beneswappe/sketch-mobile-app.jpg" data-toggle="lightbox" data-title="Mobile App Idea" data-gallery="brainstorming">
+
 						<img src="images/beneswappe/sketch-mobile-app.jpg" class="img-responsive center-block"/>
-					</a>
-					<p class="caption text-center">Mobile App Idea</p>
-				</div>
-				<div class="col-md-2">
-					<a href="images/beneswappe/sketch-kiosk.jpg" data-toggle="lightbox" data-title="Kiosk Idea" data-gallery="brainstorming">
+
+						<p class="caption text-center">Mobile App Idea</p>
+					</div>
+				</a>
+				<a href="images/beneswappe/sketch-kiosk.jpg" data-sub-html="Kiosk Idea">
+					<div class="col-md-2">
+
 						<img src="images/beneswappe/sketch-kiosk.jpg" class="img-responsive center-block"/>
-					</a>
-					<p class="caption text-center">Kiosk Idea</p>
-				</div>
 
-				<div class="col-md-2">
-					<a href="images/beneswappe/sketch-responsive-site.jpg" data-toggle="lightbox" data-title="Responsive Website Idea" data-gallery="brainstorming">
+						<p class="caption text-center">Kiosk Idea</p>
+					</div>
+				</a>
+				<a href="images/beneswappe/sketch-responsive-site.jpg" data-sub-html="Responsive Website Idea">
+					<div class="col-md-2">
+
 						<img src="images/beneswappe/sketch-responsive-site.jpg" class="img-responsive center-block"/>
-					</a>
-					<p class="caption text-center">Responsive Website Idea</p>
-				</div>
 
+						<p class="caption text-center">Responsive Website Idea</p>
+					</div>
+				</a>
 
 			</div>
 		</div>
@@ -484,37 +496,41 @@
 
 		<div class="container-fluid medium-container">
 			<div class="row">
-				<div class="col-md-12">
-					<a href="images/beneswappe/sketches.jpg" data-toggle="lightbox" data-title="Some sketches I drew while brainstorming" data-gallery="sketches">
+				<div class="col-md-12" id="sketches-1">
+					<a href="images/beneswappe/sketches.jpg" data-sub-html="Some sketches I drew while brainstorming">
 						<img src="images/beneswappe/sketches.jpg" class="img-responsive center-block medium-large-image"/>
 					</a>
 					<p class="caption text-center">Some sketches I drew while brainstorming</p>
 				</div>
 			</div>
 
-			<div class="row add-small-margin">
-				<div class="col-md-2 col-md-offset-3">
+			<div class="row add-small-margin" id="sketches-2">
 
-					<a href="images/beneswappe/sketches-menu.jpg" data-toggle="lightbox" data-title="Navigation control variations" data-gallery="sketches">
+
+				<a href="images/beneswappe/sketches-menu.jpg" data-sub-html="Navigation control variations">
+					<div class="col-md-2 col-md-offset-3">
 						<img src="images/beneswappe/sketches-menu.jpg" class="img-responsive center-block"/>
-					</a>
-					<p class="caption text-center">Navigation control variations</p>
-				</div>
-				<div class="col-md-2">
-					<a href="images/beneswappe/sketches-icons.jpg" data-toggle="lightbox" data-title="Icon variations" data-gallery="sketches">
+						<p class="caption text-center">Navigation control variations</p>
+					</div>
+				</a>
+
+				<a href="images/beneswappe/sketches-icons.jpg" data-sub-html="Icon variations">
+					<div class="col-md-2">
+
 						<img src="images/beneswappe/sketches-icons.jpg" class="img-responsive center-block"/>
-					</a>
-					<p class="caption text-center">Icon variations</p>
-				</div>
 
-				<div class="col-md-2">
-					<a href="images/beneswappe/sketches-msgs-1.jpg" data-toggle="lightbox" data-title="Requests & Messages variations" data-gallery="sketches">
+						<p class="caption text-center">Icon variations</p>
+					</div>
+				</a>
+				<a href="images/beneswappe/sketches-msgs-1.jpg" data-sub-html="Requests & Messages variations">
+					<div class="col-md-2">
+
 						<img src="images/beneswappe/sketches-msgs-1.jpg" class="img-responsive center-block"/>
-					</a>
-					<p class="caption text-center">Requests & Messages variations</p>
-				</div>
 
+						<p class="caption text-center">Requests & Messages variations</p>
+					</div>
 
+				</a>
 			</div>
 		</div>
 
@@ -620,24 +636,24 @@
 
 
 
-		<div class="container medium-container add-medium-margin">
+	<div class="container medium-container add-medium-margin">
 
-			<div class="row">
+		<div class="row">
 
-				<div class="col-md-6">
-					<video autoplay loop class="center-block video-effect" poster="videos/beneswappe/placeholders/add-to-cart.jpg">
-						<source src="videos/beneswappe/add-to-cart.mov"/>
-					</video>
-				</div>
+			<div class="col-md-6">
+				<video autoplay loop class="center-block video-effect" poster="videos/beneswappe/placeholders/add-to-cart.jpg">
+					<source src="videos/beneswappe/add-to-cart.mov"/>
+				</video>
+			</div>
 
-				<div class="col-md-6 add-medium-margin">
-					<p><b>Add items to bag</b></p>
-					<p>Users can add items to their bag whenever they identify an item that they want. Microinteractions were added here, such as the shopping bag icon expanding slightly and a notification appearing, so that the user knows an item was added.</p>
-				</div>
-
+			<div class="col-md-6 add-medium-margin">
+				<p><b>Add items to bag</b></p>
+				<p>Users can add items to their bag whenever they identify an item that they want. Microinteractions were added here, such as the shopping bag icon expanding slightly and a notification appearing, so that the user knows an item was added.</p>
 			</div>
 
 		</div>
+
+	</div>
 
 	<div class="container medium-container">
 
@@ -771,106 +787,99 @@
 
 	<div class="container">
 
-		<div class="row">
-			<div class="col-md-6 text-center">
-				<a href="images/beneswappe/screens/all-closets.jpg" data-toggle="lightbox" data-gallery="interface-screens" data-title="All Closets">
+		<div class="row" id="interface-gallery">
+			<a href="images/beneswappe/screens/all-closets.jpg" data-sub-html="All Closets">
+				<div class="col-md-6 text-center">
+
 					<img src="images/beneswappe/screens/all-closets.jpg" class="img-responsive center-block add-small-margin large-image"/>
-				</a>
-				<p class="caption">All Closets</p>
-			</div>
 
-			<div class="col-md-6 text-center">
-				<a href="images/beneswappe/screens/individual-closet.jpg" data-toggle="lightbox" data-gallery="interface-screens" data-title="Individual Closet">
+					<p class="caption">All Closets</p>
+				</div>
+			</a>
+
+			<a href="images/beneswappe/screens/individual-closet.jpg" data-sub-html="Individual Closet">
+				<div class="col-md-6 text-center">
 					<img src="images/beneswappe/screens/individual-closet.jpg" class="img-responsive center-block add-small-margin large-image"/>
+					<p class="caption">Individual Closet</p>
+								</div>
 				</a>
-				<p class="caption">Individual Closet</p>
-			</div>
-		</div>
 
 
-		<div class="row">
-			<div class="col-md-6 text-center">
-				<a href="images/beneswappe/screens/all-clothing.jpg" data-toggle="lightbox" data-gallery="interface-screens" data-title="All Clothing">
+			<a href="images/beneswappe/screens/all-clothing.jpg" data-sub-html="All Clothing">
+				<div class="col-md-6 text-center">
+
 					<img src="images/beneswappe/screens/all-clothing.jpg" class="img-responsive center-block add-small-margin large-image"/>
-				</a>
-				<p class="caption">All Clothing</p>
-			</div>
 
+					<p class="caption">All Clothing</p>
+				</div>
+			</a>
+			<a href="images/beneswappe/screens/filter.jpg" data-sub-html="Adding a filter">
+				<div class="col-md-6 text-center">
 
-			<div class="col-md-6 text-center">
-				<a href="images/beneswappe/screens/filter.jpg" data-toggle="lightbox" data-gallery="interface-screens" data-title="Adding a filter">
 					<img src="images/beneswappe/screens/filter.jpg" class="img-responsive center-block add-small-margin large-image"/>
-				</a>
-				<p class="caption">Adding a filter</p>
-			</div>
-		</div>
 
+					<p class="caption">Adding a filter</p>
+				</div>
+			</a>
+			<a href="images/beneswappe/screens/cart.jpg" data-sub-html="Viewing your bag">
+				<div class="col-md-6 text-center">
 
-
-
-
-		<div class="row">
-			<div class="col-md-6 text-center">
-				<a href="images/beneswappe/screens/cart.jpg" data-toggle="lightbox" data-gallery="interface-screens" data-title="Viewing your bag">
 					<img src="images/beneswappe/screens/cart.jpg" class="img-responsive center-block add-small-margin large-image"/>
-				</a>
-				<p class="caption">Viewing your bag</p>
-			</div>
 
+					<p class="caption">Viewing your bag</p>
+				</div>
 
-			<div class="col-md-6 text-center">
-				<a href="images/beneswappe/screens/individual-page.jpg" data-toggle="lightbox" data-gallery="interface-screens" data-title="Individual Page">
+			</a>
+			<a href="images/beneswappe/screens/individual-page.jpg" data-sub-html="Individual Page">
+				<div class="col-md-6 text-center">
+
 					<img src="images/beneswappe/screens/individual-page.jpg" class="img-responsive center-block add-small-margin large-image"/>
-				</a>
-				<p class="caption">Individual page</p>
-			</div>
 
-		</div>
+					<p class="caption">Individual page</p>
+				</div>
+			</a>
+			<a href="images/beneswappe/screens/received-requests.jpg" data-sub-html="Requests Received">
+				<div class="col-md-6 text-center">
 
-
-
-
-		<div class="row">
-			<div class="col-md-6 text-center">
-				<a href="images/beneswappe/screens/received-requests.jpg" data-toggle="lightbox" data-gallery="interface-screens" data-title="Requests Received">
 					<img src="images/beneswappe/screens/received-requests.jpg" class="img-responsive center-block add-small-margin large-image"/>
-				</a>
-				<p class="caption">Requests received</p>
-			</div>
 
-			<div class="col-md-6 text-center">
-				<a href="images/beneswappe/screens/sent-requests.jpg" data-toggle="lightbox" data-gallery="interface-screens" data-title="Requests Sent">
+					<p class="caption">Requests received</p>
+				</div>
+			</a>
+			<a href="images/beneswappe/screens/sent-requests.jpg" data-sub-html="Requests Sent">
+				<div class="col-md-6 text-center">
+
 					<img src="images/beneswappe/screens/sent-requests.jpg" class="img-responsive center-block add-small-margin large-image"/>
-				</a>
-				<p class="caption">Requests sent</p>
-			</div>
-		</div>
 
-		<div class="row">
-			<div class="col-md-6 text-center">
-				<a href="images/beneswappe/screens/one-request.jpg" data-toggle="lightbox" data-gallery="interface-screens" data-title="Single Request">
+					<p class="caption">Requests sent</p>
+				</div>
+			</a>
+			<a href="images/beneswappe/screens/one-request.jpg" data-sub-html="Single Request">
+				<div class="col-md-6 text-center">
+
 					<img src="images/beneswappe/screens/one-request.jpg" class="img-responsive center-block add-small-margin large-image"/>
-				</a>
-				<p class="caption">Single request</p>
-			</div>
 
+					<p class="caption">Single request</p>
+				</div>
 
+			</a>
+			<a href="images/beneswappe/screens/add-your-clothes.jpg" data-sub-html="Add your clothes modal for desktop/tablet">
+				<div class="col-md-3 text-center add-small-margin">
 
-			<div class="col-md-3 text-center add-small-margin">
-				<a href="images/beneswappe/screens/add-your-clothes.jpg" data-toggle="lightbox" data-gallery="interface-screens" data-title="Add your clothes modal for desktop/tablet">
 					<img src="images/beneswappe/screens/add-your-clothes.jpg" class="img-responsive center-block large-image"/>
-				</a>
-				<p class="caption">Adding clothes modal (desktop/tablet)</p>
-			</div>
 
-			<div class="col-md-3 text-center add-small-margin">
-				<a href="images/beneswappe/screens/edit-your-clothes.jpg" data-toggle="lightbox" data-gallery="interface-screens" data-title="Edit your clothes modal for desktop/tablet">
+					<p class="caption">Adding clothes modal (desktop/tablet)</p>
+				</div>
+			</a>
+			<a href="images/beneswappe/screens/edit-your-clothes.jpg" data-sub-html="Edit your clothes modal for desktop/tablet">
+				<div class="col-md-3 text-center add-small-margin">
+
 					<img src="images/beneswappe/screens/edit-your-clothes.jpg" class="img-responsive center-block large-image"/>
-				</a>
-				<p class="caption">Editing clothes modal (desktop/tablet)</p>
-			</div>
 
+					<p class="caption">Editing clothes modal (desktop/tablet)</p>
+				</div>
 
+			</a>
 
 		</div>
 
@@ -917,22 +926,25 @@
 
 	<div class="container medium-container">
 
-		<div class="row">
+		<div class="row" id="evaluation-gallery">
+			<a href="images/beneswappe/screens/msgs.jpg" data-sub-html="Messages page">
 			<div class="col-md-6 text-center">
-				<a href="images/beneswappe/screens/msgs.jpg" data-toggle="lightbox" data-gallery="messages-stuff" data-title="Messages page">
+
 					<img src="images/beneswappe/screens/msgs.jpg" class="img-responsive center-block add-small-margin slightly-larger-than-medium-large-image"/><br>
-				</a>
+
 				<p class="caption">Messages page</p>
 
 
 			</div>
-
-			<div class="col-md-6 text-center">
-				<a href="images/beneswappe/screens/empty-msgs.jpg" data-toggle="lightbox" data-gallery="messages-stuff" data-title="Empty messages page">
-					<img src="images/beneswappe/screens/empty-msgs.jpg" class="img-responsive center-block add-small-margin slightly-larger-than-medium-large-image"/><br>
 				</a>
+				<a href="images/beneswappe/screens/empty-msgs.jpg" data-sub-html="Empty messages page">
+			<div class="col-md-6 text-center">
+
+					<img src="images/beneswappe/screens/empty-msgs.jpg" class="img-responsive center-block add-small-margin slightly-larger-than-medium-large-image"/><br>
+
 				<p class="caption">Empty messages page</p>
 			</div>
+					</a>
 		</div>
 
 
@@ -1032,14 +1044,38 @@
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
-<script src="js/ekko-lightbox.min.js"></script>
+<script src="js/lightgallery.js"></script>
+<script src="js/lg-zoom.min.js"></script>
 <script src="js/script.js"></script>
 <script>
 
 
-$(document).on('click', '[data-toggle="lightbox"]', function(event) {
-	event.preventDefault();
-	$(this).ekkoLightbox();
+
+$(document).ready(function() {
+	$("#task-analysis").lightGallery({
+		zoom:true,
+		download:false
+	});
+	$("#persona-views").lightGallery({
+		download:false
+	});
+	$("#idea-gallery").lightGallery({
+		download:false
+	});
+	$("#sketches-1").lightGallery({
+		download:false
+	});
+	$("#sketches-2").lightGallery({
+		download:false
+	});
+	$("#interface-gallery").lightGallery({
+		zoom:true,
+		download:false
+	});
+	$("#evaluation-gallery").lightGallery({
+		zoom:true,
+		download:false
+	});
 });
 
 var played = false;
