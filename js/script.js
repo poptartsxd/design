@@ -34,6 +34,17 @@ function checkPrototype(){
   }
 }
 
+function checkSketchCollapse(){
+  var currentValue = document.getElementById("my-sketch-collapse-btn").innerHTML;
+  var closeValue = "CLOSE DETAILS";
+  var showValue = "SHOW DETAILS";
+  if(currentValue == showValue){
+    document.getElementById("my-sketch-collapse-btn").innerHTML = closeValue;
+  }else{
+    document.getElementById("my-sketch-collapse-btn").innerHTML = showValue;
+  }
+}
+
 
 
   $(document).ready(function(){
