@@ -321,9 +321,11 @@
       </div>
     </div>
 
-    <div class="container-fluid my-container">
+    <div class="container-fluid my-container" id="process">
       <div class="row">
         <div class="col-md-12">
+          <img src="images/petpaws/icons/process.svg" class="center-block small-icons"/>
+          <p class="text-center section-title">PROCESS</p>
           <p class="text-center section-subtitle">Establishing Assumptions</p>
           <p>I decided to focus on the first two phases (Thinking/Researching and Visiting) of the pet adoption process because I found the most user pain points during these phases.</p>
           <p class="vertical-divider">Assume there is access to resources provided by a large tech company like Google. This allows me to think creatively and use tools such as <b>augmented reality</b>, <b>virtual reality</b>, and <b>machine learning</b>.</p>
@@ -336,81 +338,99 @@
     </div>
 
 
-    <div class="container-fluid my-container" id="process">
+    <div class="container-fluid my-container">
       <div class="row">
         <div class="col-md-12">
-          <img src="images/petpaws/icons/process.svg" class="center-block small-icons"/>
-          <p class="text-center section-title">PROCESS</p>
+
           <p class="text-center section-subtitle">Brainstorming</p>
           <p>After synthesizing my research insights, I conducted a brainstorming session to generate multiple ideas. I chose my final idea based on: <b>technical feasibility</b> and <b>user impact</b>.</p>
         </div>
       </div>
-    </div>
 
-    <div class="container-fluid medium-container">
+      <div class="add-extra-small-margin text-center">
+        <br>
+          <a class="my-btn" id="my-collapse-btn" data-toggle="collapse" data-target="#brainstorming-gallery" onclick="checkCollapse()">SHOW DETAILS</a>
+      </div>
 
-      <div class="row">
-
-        <div id="brainstorming-gallery">
+        <div id="brainstorming-gallery" class="collapse">
 
 
 
           <a href="images/petpaws/website.jpg" data-sub-html="Responsive Website">
-            <div class="col-md-2 col-md-offset-1">
-              <img src="images/petpaws/website.jpg" class="img-responsive center-block"/>
-              <p class="caption text-center">Responsive Website</p>
+            <div class="row add-small-margin">
+              <div class="col-md-6">
+                <img src="images/petpaws/website.jpg" class="img-responsive center-block"/>
+
+              </div>
+              <div class="col-md-6">
+                <p><b>Responsive Website</b></p>
+                <p>This would be a website where users could see available dogs. This was very feasible to create. However, this would have a low impact on user and I felt it wasn't as creative.</p>
+              </div>
             </div>
           </a>
-
-
-
-
-
 
           <a href="images/petpaws/hologram.jpg" data-sub-html="Pet Hologram Idea">
-            <div class="col-md-2">
-              <img src="images/petpaws/hologram.jpg" class="img-responsive center-block"/>
+            <div class="row add-small-margin">
+              <div class="col-md-6">
+                <img src="images/petpaws/hologram.jpg" class="img-responsive center-block"/>
 
-
-              <p class="caption text-center">Pet Hologram Idea</p>
+              </div>
+              <div class="col-md-6">
+                <p><b>Pet Hologram Idea</b></p>
+                <p>Users wanted to see the pet in person and how it would fit into their homes. Some sort of pet hologram or projection could show users what the pet would look like in their space. However, I did not pursue this route because of technical feasibility.</p>
+              </div>
             </div>
           </a>
-
 
           <a href="images/petpaws/ar.jpg" data-sub-html="AR App for Potential Pets">
-            <div class="col-md-2">
-              <img src="images/petpaws/ar.jpg" class="img-responsive center-block"/>
+            <div class="row add-small-margin">
+              <div class="col-md-6">
+                <img src="images/petpaws/ar.jpg" class="img-responsive center-block"/>
 
-              <p class="caption text-center">AR App for Potential Pets</p>
-
+              </div>
+              <div class="col-md-6">
+                <p><b>AR App for Potential Pets</b></p>
+                <p>Because I found that users wanted to be able to see how a pet would look in their space, I thought about making that easier for them by using AR. A 3D rendering of the pet would show up right on their device. This is feasible and would have an impact on users.</p>
+              </div>
             </div>
           </a>
 
-          <a href="images/petpaws/vr.jpg" data-sub-html="VR App of Pet">
-            <div class="col-md-2">
-              <img src="images/petpaws/vr.jpg" class="img-responsive center-block"/>
 
-              <p class="caption text-center">VR App of Pet</p>
+          <a href="images/petpaws/vr.jpg" data-sub-html="VR App for of Pet">
+            <div class="row add-small-margin">
+              <div class="col-md-6">
+                <img src="images/petpaws/vr.jpg" class="img-responsive center-block"/>
+
+              </div>
+              <div class="col-md-6">
+                <p><b>VR App of Pet</b></p>
+                <p>A user wouldn't have to go to the shelter! They can easily view a pet's personality and interactions in a virtual space. However, this was not feasible within the given timeframe.</p>
+              </div>
             </div>
           </a>
-
 
           <a href="images/petpaws/app.jpg" data-sub-html="Matching Pets App">
-            <div class="col-md-2">
-              <img src="images/petpaws/app.jpg" class="img-responsive center-block"/>
+            <div class="row add-small-margin">
+              <div class="col-md-6">
+                <img src="images/petpaws/app.jpg" class="img-responsive center-block"/>
 
-              <p class="caption text-center">Matching Pets App</p>
+              </div>
+              <div class="col-md-6">
+                <p><b>Matching Pets App</b></p>
+                <p>A user would enter information about their lifestyle and the app will recommend pets to them based on different factors. This is feasible and would have an impact on users as it suggests pets that best suits their life.</p>
+              </div>
             </div>
           </a>
+
         </div>
-      </div>
+
     </div>
 
     <div class="container-fluid my-container">
       <div class="row">
         <div class="col-md-12">
           <p class="text-center section-subtitle">Design Guidelines</p>
-          <p>Based on my insights, I decided to combine two of my ideas to create an Android app with AR capabilities. This was feasible within the allotted time and would have the most impact on users. Some guidelines that I came up with include:</p>
+          <p>Based on my insights, I decided to combine two of my ideas to create an Android app with AR capabilities. This was feasible within the allotted time and would have the most impact on users. I chose to design an app because it would give users <b>mobility and flexibility of use</b>. Some guidelines that I came up with include:</p>
 
           <p class="vertical-divider"><b>Users should be able to see the pets that best fit their lifestyle</b></p>
           <p>Through machine learning, the app will display and update recommended pets based on the user's inputs and preferences. This will help users find the perfect pet for them.</p>
@@ -458,10 +478,12 @@
 
     </div>
 
-    <!-- <div class="container-fluid my-container">
+    <div class="container-fluid my-container">
       <div class="row">
         <div class="col-md-12">
-          <p>I sketched out different variations of the UI and each screen. Below are some examples:</p>
+          <p>Before designing digitally, I sketched out different variations of the UI and each screen. This allowed me to ideate fast.</p>
+
+
         </div>
 
 
@@ -472,6 +494,7 @@
     <div class="container-fluid medium-container">
 
       <div class="row">
+
 
         <div id="ideation-gallery">
 
@@ -502,7 +525,7 @@
 
         </div>
       </div>
-    </div> -->
+    </div>
 
 
     <div class="container-fluid my-container" id="flows">
@@ -1039,8 +1062,16 @@
         <div class="row">
           <div class="col-md-12">
             <p class="text-center section-subtitle">Getting User Feedback</p>
-            <p>Due to time constraints, I did not have have time to conduct a full usability test session. However, throughout the process, I got feedback from users about the design. I made a prototype in Marvel so users could click through to see if the flows made sense.</p><br>
-            <a href="https://marvelapp.com/2dd532f" target="_blank" class="my-btn">View Prototype</a>
+            <p>Due to time constraints, I did not have have time to conduct a full usability test session. However, throughout the process, I got feedback from users about the design. I made a prototype in Marvel so users could click through to see if the flows made sense.</p>
+
+            <div class="add-extra-small-margin text-center">
+              <br>
+                <a class="my-btn" id="my-prototype-collapse-btn" data-toggle="collapse" data-target="#prototype" onclick="checkPrototype()">SHOW PROTOTYPE</a>
+            </div>
+
+            <div class="collapse text-center add-extra-small-margin" id="prototype">
+              <iframe src="https://marvelapp.com/2dd532f?emb=1&iosapp=false&frameless=false" width="390" height="755" allowTransparency="true" frameborder="0"></iframe>
+            </div>
 
             <p class="add-small-margin">Getting user feedback is crucial. I find so much value in asking others for their opinions. Below are some changes that I made because I got to talk to users.</p>
 
@@ -1222,8 +1253,8 @@
         zoom:true,
         download:false
       });
-    });
 
+    });
 
 
     </script>

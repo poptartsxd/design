@@ -12,32 +12,27 @@ function checkPassword()
   }
 }
 
-
-function showAbout()
-{
-  $("#about").fadeIn(1500);
-  $("#list-of-projects").fadeOut(500);
-  $("#resume").fadeOut(500);
+function checkCollapse(){
+  var currentValue = document.getElementById("my-collapse-btn").innerHTML;
+  var closeValue = "CLOSE DETAILS";
+  var showValue = "SHOW DETAILS";
+  if(currentValue == showValue){
+    document.getElementById("my-collapse-btn").innerHTML = closeValue;
+  }else{
+    document.getElementById("my-collapse-btn").innerHTML = showValue;
+  }
 }
 
-function showProjects()
-{
-  $("#list-of-projects").fadeIn(1500);
-  $("#about").fadeOut(500);
-  $("#resume").fadeOut(500);
+function checkPrototype(){
+  var currentValue = document.getElementById("my-prototype-collapse-btn").innerHTML;
+  var closeValue = "CLOSE PROTOTYPE";
+  var showValue = "SHOW PROTOTYPE";
+  if(currentValue == showValue){
+    document.getElementById("my-prototype-collapse-btn").innerHTML = closeValue;
+  }else{
+    document.getElementById("my-prototype-collapse-btn").innerHTML = showValue;
+  }
 }
-
-function showResume()
-{
-  $("#resume").fadeIn(500);
-  $("#list-of-projects").fadeOut(500);
-  $("#about").fadeOut(500);
-}
-
-
-
-
-
 
 
 
