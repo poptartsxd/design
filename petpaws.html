@@ -473,7 +473,11 @@
       <div class="row">
         <div class="col-md-12">
           <p>I started designing screens by sketching out different variations of the UI on paper. This allowed me to ideate fast. I then put the screens into Sketch.</p><br>
-          <img src="images/petpaws/main-sketch.jpg" class="center-block img-responsive medium-image"/>
+          <div id="sketch-img">
+            <a href="images/petpaws/main-sketch.jpg">
+              <img src="images/petpaws/main-sketch.jpg" class="center-block img-responsive medium-image"/>
+            </a>
+          </div>
           <div class="text-center add-small-margin">
 
             <br>
@@ -1239,6 +1243,9 @@
       });
       $("#interface").lightGallery({
         zoom:true,
+        download:false
+      });
+      $("#sketch-img").lightGallery({
         download:false
       });
 
