@@ -476,6 +476,13 @@ img.bkgd-tiles
   box-shadow: 4px 4px 24px rgba(0,0,0,0.12);
 }
 
+.iphone-x-video
+{
+	width:200px;
+  box-shadow: 4px 4px 24px rgba(0,0,0,0.12);
+	border-radius:4px;
+}
+
 .pinwheel
 {
 	width:250px;
@@ -489,6 +496,11 @@ img.bkgd-tiles
 .add-drop-shadow
 {
 	box-shadow: 0px 2px 24px rgba(0,0,0,0.12);
+}
+
+.add-rounded-corners
+{
+	border-radius:4px;
 }
 
 .front-image
@@ -530,6 +542,11 @@ img.bkgd-tiles
 .medium-large-bit-image
 {
 	width:600px;
+}
+
+.even-larger-than-medium-large-image
+{
+	width:700;
 }
 
 .slightly-larger-than-medium-large-image

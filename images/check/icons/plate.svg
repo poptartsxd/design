@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="51px" height="49px" viewBox="0 0 51 49" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
+    <title>plate</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-2" transform="translate(-522.000000, -556.000000)" stroke="#000000" stroke-width="2">
+            <g id="plate" transform="translate(523.000000, 557.000000)">
+                <path d="M0,17 L40,17 L40,27 C40,35.836556 32.836556,43 24,43 L16,43 C7.163444,43 0,35.836556 0,27 L0,17 Z" id="Rectangle-2" stroke-linejoin="round"></path>
+                <path d="M40,17 L45,17 C47.209139,17 49,18.790861 49,21 C49,23.209139 47.209139,25 45,25 L40,25 L40,17 Z" id="Rectangle" stroke-linejoin="round"></path>
+                <path d="M0,24 L27,24" id="Path-16" stroke-linecap="round"></path>
+                <path d="M11,47 L29,47" id="Path-29" stroke-linecap="round"></path>
+                <path d="M17,13 C15,11.8571429 14,10.7142857 14,9.5714286 C14,7.8571429 17,7 17,4.42857143 C17,2.71428571 16.3333333,1.57142857 15,1" id="Path-11" stroke-linecap="round"></path>
+                <path d="M24,12 C22,10.8571429 21,9.7142857 21,8.5714286 C21,6.8571429 24,6 24,3.42857143 C24,1.71428571 23.3333333,0.57142857 22,0" id="Path-11" stroke-linecap="round"></path>
+            </g>
+        </g>
+    </g>
+</svg>

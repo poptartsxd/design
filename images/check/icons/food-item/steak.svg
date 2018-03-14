@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="72px" height="72px" viewBox="0 0 72 72" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
+    <title>food-item/steak</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="food-item/steak" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle-3" fill="#D9A698" x="0" y="0" width="72" height="72"></rect>
+        <g id="Group" transform="translate(10.000000, 16.000000)" stroke="#000000" stroke-width="2">
+            <path d="M21.6391153,6 C38.1391153,6 53,5 53,19 C53,34 42.6391153,33 35.6391153,33 C28.6391153,33 24.3187192,41 9,41 C1.95944842,41 -0.440026233,29.9905792 1,22 C2.69315974,12.6048052 9.75041332,6 21.6391153,6 Z" id="Path-17" fill="#99452E"></path>
+            <path d="M22,0 C38.5,0 53,9 53,17 C53,25 43,27 36,27 C29,27 24,35 8.68128081,35 C-6.63743837,35 -5.91915406e-13,1.70002901e-15 22,0 Z" id="Mask" fill="#99452E"></path>
+            <path d="M5,28 L19,4" id="Path-22" stroke-linecap="round"></path>
+            <path d="M15,30 L30,4" id="Path-22" stroke-linecap="round"></path>
+            <path d="M28,25 L38,8" id="Path-22" stroke-linecap="round"></path>
+            <path d="M40,23 L46,13" id="Path-22" stroke-linecap="round"></path>
+        </g>
+    </g>
+</svg>

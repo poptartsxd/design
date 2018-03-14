@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="59px" height="81px" viewBox="0 0 59 81" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 4</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M12.0833333,9.16666667 L10.8333333,9.16666667 L10.8333333,5 L14.1666667,5 C14.6666667,5 15,4.66666667 15,4.16666667 C15,3.66666667 14.6666667,3.33333333 14.1666667,3.33333333 L10.8333333,3.33333333 L10.8333333,0.833333333 C10.8333333,0.333333333 10.5,0 10,0 C9.5,0 9.16666667,0.333333333 9.16666667,0.833333333 L9.16666667,3.33333333 L7.91666667,3.33333333 C5.83333333,3.33333333 4.16666667,5 4.16666667,7.08333333 C4.16666667,9.16666667 5.83333333,10.8333333 7.91666667,10.8333333 L9.16666667,10.8333333 L9.16666667,15 L5,15 C4.5,15 4.16666667,15.3333333 4.16666667,15.8333333 C4.16666667,16.3333333 4.5,16.6666667 5,16.6666667 L9.16666667,16.6666667 L9.16666667,19.1666667 C9.16666667,19.6666667 9.5,20 10,20 C10.5,20 10.8333333,19.6666667 10.8333333,19.1666667 L10.8333333,16.6666667 L12.0833333,16.6666667 C14.1666667,16.6666667 15.8333333,15 15.8333333,12.9166667 C15.8333333,10.8333333 14.1666667,9.16666667 12.0833333,9.16666667 Z M7.91666667,9.16666667 C6.75,9.16666667 5.83333333,8.25 5.83333333,7.08333333 C5.83333333,5.91666667 6.75,5 7.91666667,5 L9.16666667,5 L9.16666667,9.16666667 L7.91666667,9.16666667 Z M12.0833333,15 L10.8333333,15 L10.8333333,10.8333333 L12.0833333,10.8333333 C13.25,10.8333333 14.1666667,11.75 14.1666667,12.9166667 C14.1666667,14.0833333 13.25,15 12.0833333,15 Z" id="path-1"></path>
+    </defs>
+    <g id="comps" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="create-group" transform="translate(-158.000000, -120.000000)">
+            <g id="Group-4" transform="translate(159.000000, 121.000000)">
+                <g id="icon-/-dollar-sign" transform="translate(33.000000, 51.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="Shape" fill="#000000" fill-rule="nonzero" xlink:href="#path-1"></use>
+                    <g id="color-/-black" mask="url(#mask-2)" fill="#000000" fill-rule="evenodd">
+                        <rect id="Shape" x="0" y="0" width="20" height="20"></rect>
+                    </g>
+                </g>
+                <polygon id="Rectangle" stroke="#000000" stroke-width="2" stroke-linejoin="round" transform="translate(28.500000, 39.500000) scale(1, -1) translate(-28.500000, -39.500000) " points="0 4 6 0 12 4 17 0 23 4 28.5 0 34 4 40 0 47 4 52 0 57 4 57 79 0 79"></polygon>
+                <g id="Group-3" transform="translate(8.000000, 14.000000)" stroke="#000000" stroke-linecap="round" stroke-width="2">
+                    <path d="M0,1 L42,1" id="Path-2"></path>
+                    <path d="M0,11 L28,11" id="Path-2"></path>
+                    <path d="M34,11 L42,11" id="Path-2"></path>
+                    <path d="M34,21 L42,21" id="Path-2"></path>
+                    <path d="M34,31 L42,31" id="Path-2"></path>
+                    <path d="M0,21 L28,21" id="Path-2"></path>
+                    <path d="M0,31 L28,31" id="Path-2"></path>
+                    <path d="M0,41 L18,41" id="Path-2"></path>
+                    <path d="M0,51 L11,51" id="Path-2"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

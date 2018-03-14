@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="72px" height="72px" viewBox="0 0 72 72" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
+    <title>food-item/tacos</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="food-item/tacos" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle-3" fill="#ADCCB4" x="0" y="0" width="72" height="72"></rect>
+        <polygon id="Path-30" stroke="#000000" stroke-width="2" fill="#FFF2CC" stroke-linejoin="round" points="18.2 31 14 19 17.5 19 21 28"></polygon>
+        <polygon id="Path-30" stroke="#000000" stroke-width="2" fill="#FFF2CC" stroke-linejoin="round" points="22.2 30 18 18 21 16 25 27"></polygon>
+        <polygon id="Path-30" stroke="#000000" stroke-width="2" fill="#FFF2CC" stroke-linejoin="round" transform="translate(52.093699, 24.566983) rotate(33.000000) translate(-52.093699, -24.566983) " points="52.7936986 32.2020433 48.5936986 20.2020433 51.7931631 16.9319235 55.5936986 29.2020433"></polygon>
+        <path d="M9,50 C5.66666667,48 4,45.6666667 4,43 C4,39 7,40 9,37 C11,34 9,29 11,26 C13,23 18,25 20,23 C22,21 24,16 27,16 C30,16 32,18 35,18 C38,18 44,15 46,16 C48,17 49,20 52,22 C55,24 60,22 62,25 C64,28 62,30 64,34 C66,38 69,37 69,41 C69,45 62,47 62,50 C62,52 44.3333333,52 9,50 Z" id="Path-9" stroke="#000000" stroke-width="2" fill="#368A47"></path>
+        <circle id="Oval" stroke="#000000" stroke-width="2" fill="#D96C6C" cx="44" cy="23" r="4"></circle>
+        <circle id="Oval" stroke="#000000" stroke-width="2" fill="#D96C6C" cx="57" cy="31" r="4"></circle>
+        <circle id="Oval" stroke="#000000" stroke-width="2" fill="#D96C6C" cx="17" cy="30" r="4"></circle>
+        <path d="M8,21 C20,21 50.9909098,21 65,21 C65,41 50.5045451,52 35.5045451,52 C20.5045451,52 8,39 8,21 Z" id="Path-23" stroke="#000000" stroke-width="2" fill="#DE7D62" stroke-linejoin="round" transform="translate(36.500000, 36.500000) scale(1, -1) translate(-36.500000, -36.500000) "></path>
+        <ellipse id="Oval" fill="#000000" cx="21.9469697" cy="41" rx="1" ry="1"></ellipse>
+        <ellipse id="Oval" fill="#000000" cx="21.9469697" cy="32" rx="1" ry="1"></ellipse>
+        <ellipse id="Oval" fill="#000000" cx="29.9469697" cy="46" rx="1" ry="1"></ellipse>
+        <ellipse id="Oval" fill="#000000" cx="48.9469697" cy="47" rx="1" ry="1"></ellipse>
+        <ellipse id="Oval" fill="#000000" cx="29.9469697" cy="28" rx="1" ry="1"></ellipse>
+        <ellipse id="Oval" fill="#000000" cx="41.9469697" cy="31" rx="1" ry="1"></ellipse>
+        <ellipse id="Oval" fill="#000000" cx="47.6742424" cy="40.6" rx="1" ry="1"></ellipse>
+        <ellipse id="Oval" fill="#000000" cx="14.9469697" cy="46" rx="1" ry="1"></ellipse>
+        <ellipse id="Oval" fill="#000000" cx="53.6742424" cy="35.6" rx="1" ry="1"></ellipse>
+        <ellipse id="Oval" fill="#000000" cx="36.9469697" cy="40" rx="1" ry="1"></ellipse>
+    </g>
+</svg>

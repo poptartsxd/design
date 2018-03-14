@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="60px" height="59px" viewBox="0 0 60 59" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
+    <title>bowl</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-2" transform="translate(-200.000000, -552.000000)" stroke="#000000" stroke-width="2">
+            <g id="bowl" transform="translate(201.000000, 553.000000)">
+                <path d="M33.9975776,53.583364 L37.4142136,57 L20.5857864,57 L24.0024224,53.583364 C8.04744084,49.726439 0,38.4463493 0,20 L0,19 L1,19 C1.4375,19 1.4375,19 3.40625,19 C6.03125,19 6.03125,19 9.75,19 C18.5,19 18.5,19 29,19 C39.5,19 39.5,19 48.25,19 C51.96875,19 51.96875,19 54.59375,19 C56.5625,19 56.5625,19 57,19 L58,19 L58,20 C58,38.4463493 49.9525592,49.726439 33.9975776,53.583364 Z" id="Mask" stroke-linejoin="round"></path>
+                <path d="M1,26 L39,26" id="Path-16"></path>
+                <path d="M25,16 C23,14.6666667 22,13.3333333 22,12 C22,10 25,9 25,6 C25,4 24.3333333,2.66666667 23,2" id="Path-11"></path>
+                <path d="M32,14 C30,12.6666667 29,11.3333333 29,10 C29,8 32,7 32,4 C32,2 31.3333333,0.66666667 30,0" id="Path-11"></path>
+            </g>
+        </g>
+    </g>
+</svg>

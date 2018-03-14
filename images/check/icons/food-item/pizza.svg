@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="72px" height="72px" viewBox="0 0 72 72" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
+    <title>food-item/pizza</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M21.5,57 C7.16666667,28.7187895 3.15035173e-15,11.786147 0,6.20207254 C5.97222222,-2.06735751 37.0277778,-2.06735751 43,6.20207254 C43,11.5535669 35.8333333,28.4862094 21.5,57 Z" id="path-1"></path>
+    </defs>
+    <g id="food-item/pizza" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle-3" fill="#FFF2CC" x="0" y="0" width="72" height="72"></rect>
+        <g id="Path-13" transform="translate(30.143748, 40.093496) rotate(30.000000) translate(-30.143748, -40.093496) translate(8.643748, 11.593496)">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="Mask" stroke-linecap="round" stroke-linejoin="round">
+                <use fill="#FFF7CC" fill-rule="evenodd" xlink:href="#path-1"></use>
+                <path stroke="#000000" stroke-width="2" d="M20.6080175,57.4520699 C6.1697545,28.9638219 -1,12.0238838 -1,6.20207254 L-1,5.87872476 L-0.810685925,5.61659126 C5.56069285,-3.20553042 37.4393071,-3.20553042 43.8106859,5.61659126 L44,5.87872476 L44,6.20207254 C44,11.7912093 36.8345206,28.7210465 22.3934671,57.4491287 L21.5036558,59.2192607 L20.6080175,57.4520699 Z"></path>
+            </g>
+            <circle id="Oval" stroke="#000000" stroke-width="2" fill="#D96C6C" mask="url(#mask-2)" cx="15.5" cy="18.5" r="7.5"></circle>
+            <circle id="Oval" stroke="#000000" stroke-width="2" fill="#D96C6C" mask="url(#mask-2)" cx="31.5" cy="32.5" r="7.5"></circle>
+            <circle id="Oval" stroke="#000000" stroke-width="2" fill="#D96C6C" mask="url(#mask-2)" cx="19.5" cy="51.5" r="7.5"></circle>
+            <path d="M21.5,64 C7.16666667,35.7187895 3.15035173e-15,18.786147 0,13.2020725 C5.97222222,4.93264249 37.0277778,4.93264249 43,13.2020725 C43,18.5535669 35.8333333,35.4862094 21.5,64 Z" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" mask="url(#mask-2)"></path>
+        </g>
+    </g>
+</svg>

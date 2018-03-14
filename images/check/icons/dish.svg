@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="60px" height="41px" viewBox="0 0 60 41" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
+    <title>dish</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-2" transform="translate(-414.000000, -560.000000)" stroke="#000000" stroke-width="2">
+            <g id="dish" transform="translate(415.000000, 561.000000)">
+                <path d="M29.5,6 C47.8078999,6 57.0520341,16.8138929 56.999997,38.0024559 L56.9975471,39 L2.00245289,39 L2.00000302,38.0024559 C1.94796585,16.8138929 11.1921001,6 29.5,6 Z" id="Mask"></path>
+                <path d="M10,22 C11.9103059,17.9675217 14.9103059,14.9675217 19,13" id="Rectangle-2" stroke-linecap="round"></path>
+                <path d="M0,39 L58,39" id="Path-8" stroke-linecap="round"></path>
+                <circle id="Oval-5" cx="29" cy="3" r="3"></circle>
+            </g>
+        </g>
+    </g>
+</svg>
