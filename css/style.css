@@ -416,6 +416,7 @@ a#active
 .project-img
 {
 	transition: all .3s ease-in-out;
+	/* border-radius:4px; */
 }
 
 .project-img:hover
