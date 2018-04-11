@@ -377,6 +377,15 @@ a.front-text:hover{
 	color:rgba(0,0,0,0.87);
 }
 
+a.mail-me{
+	color: rgba(0,0,0,0.54);
+  text-decoration: none;
+}
+
+a.mail-me:hover{
+	color:#607BBF;	
+}
+
 #about:focus{
 	outline:0;
 }
@@ -637,7 +646,7 @@ img.bkgd-tiles
 /*PetPaws*/
 .main-stuff
 {
-	/* display:none; */
+	display:none;
 }
 
 .password-stuff
