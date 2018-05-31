@@ -383,7 +383,7 @@ a.mail-me{
 }
 
 a.mail-me:hover{
-	color:#607BBF;	
+	color:#607BBF;
 }
 
 #about:focus{
@@ -646,7 +646,7 @@ img.bkgd-tiles
 /*PetPaws*/
 .main-stuff
 {
-	display:none;
+	/* display:none; */
 }
 
 .password-stuff
