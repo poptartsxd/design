@@ -646,7 +646,7 @@ img.bkgd-tiles
 /*PetPaws*/
 .main-stuff
 {
-	/* display:none; */
+	display:none;
 }
 
 .password-stuff
